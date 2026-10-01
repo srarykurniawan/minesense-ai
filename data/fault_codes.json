@@ -1,0 +1,346 @@
+{
+  "E-ENG-101": {
+    "code": "E-ENG-101",
+    "model": "DT-100",
+    "title": "Temperatur coolant tinggi (> 105 °C)",
+    "causes": [
+      "Radiator tersumbat debu/lumpur",
+      "Coolant kurang/bocor",
+      "Fan belt slip/putus",
+      "Thermostat macet",
+      "Water pump rusak"
+    ],
+    "actions": [
+      "Idle-kan mesin 5 menit sebelum dimatikan",
+      "Cek level coolant setelah suhu < 50 °C",
+      "Bersihkan radiator",
+      "Cek fan belt",
+      "Uji thermostat"
+    ],
+    "symptoms": [
+      "mesin overheat",
+      "suhu mesin naik terus saat tanjakan",
+      "indikator temperatur merah",
+      "coolant cepat habis"
+    ],
+    "critical": false
+  },
+  "E-ENG-115": {
+    "code": "E-ENG-115",
+    "model": "DT-100",
+    "title": "Tekanan oli mesin rendah",
+    "causes": [
+      "Level oli rendah",
+      "Filter oli tersumbat",
+      "Pengenceran oli oleh bahan bakar",
+      "Pompa oli aus",
+      "Sensor tekanan rusak"
+    ],
+    "actions": [
+      "Matikan mesin segera",
+      "Cek level oli",
+      "Ambil sampel oli (fuel dilution)",
+      "Verifikasi dengan manometer mekanik"
+    ],
+    "symptoms": [
+      "lampu tekanan oli menyala",
+      "tekanan oli drop saat idle",
+      "bunyi ketukan dari mesin"
+    ],
+    "critical": true
+  },
+  "E-TRM-201": {
+    "code": "E-TRM-201",
+    "model": "DT-100",
+    "title": "Temperatur oli transmisi tinggi (> 120 °C)",
+    "causes": [
+      "Level oli transmisi kurang",
+      "Oil cooler tersumbat",
+      "Kopling slip",
+      "Pola operasi rpm tinggi gigi rendah"
+    ],
+    "actions": [
+      "Kurangi beban",
+      "Cek level oli transmisi",
+      "Bersihkan cooler",
+      "Tes stall"
+    ],
+    "symptoms": [
+      "transmisi panas",
+      "perpindahan gigi kasar dan suhu transmisi tinggi",
+      "unit kehilangan tenaga di tanjakan"
+    ],
+    "critical": false
+  },
+  "E-BRK-301": {
+    "code": "E-BRK-301",
+    "model": "DT-100",
+    "title": "Tekanan sistem rem rendah",
+    "causes": [
+      "Kebocoran selang rem",
+      "Nitrogen accumulator rendah",
+      "Pompa rem aus"
+    ],
+    "actions": [
+      "Unit dilarang beroperasi, pasang tag DO NOT OPERATE",
+      "Cek kebocoran",
+      "Ukur tekanan nitrogen accumulator",
+      "Tes rem statis"
+    ],
+    "symptoms": [
+      "rem terasa dalam",
+      "alarm tekanan rem",
+      "pengereman tidak pakem saat turunan"
+    ],
+    "critical": true
+  },
+  "E-SUS-401": {
+    "code": "E-SUS-401",
+    "model": "DT-100",
+    "title": "Tekanan silinder suspensi tidak seimbang",
+    "causes": [
+      "Kebocoran gas nitrogen suspensi",
+      "Seal silinder suspensi rusak"
+    ],
+    "actions": [
+      "Ukur ride height",
+      "Isi ulang nitrogen",
+      "Ganti seal bila bocor"
+    ],
+    "symptoms": [
+      "unit miring ke satu sisi",
+      "guncangan berlebih",
+      "suspensi bocor oli"
+    ],
+    "critical": false
+  },
+  "E-ELC-501": {
+    "code": "E-ELC-501",
+    "model": "DT-100",
+    "title": "Tegangan sistem rendah (< 24 V)",
+    "causes": [
+      "Alternator rusak",
+      "Belt alternator slip",
+      "Terminal baterai korosi",
+      "Kabel ground rusak"
+    ],
+    "actions": [
+      "Ukur tegangan pengisian (27–28,5 V)",
+      "Bersihkan terminal",
+      "Cek output alternator"
+    ],
+    "symptoms": [
+      "unit susah starter",
+      "lampu redup",
+      "monitor panel mati hidup"
+    ],
+    "critical": false
+  },
+  "E-HYD-601": {
+    "code": "E-HYD-601",
+    "model": "DT-100",
+    "title": "Vessel (hoist) lambat naik",
+    "causes": [
+      "Level oli hidrolik rendah",
+      "Pompa hoist aus",
+      "Setting relief valve turun",
+      "Filter suction tersumbat"
+    ],
+    "actions": [
+      "Cek level oli hidrolik",
+      "Ukur tekanan relief hoist",
+      "Cek waktu angkat (± 20 detik)"
+    ],
+    "symptoms": [
+      "vessel lambat naik saat dumping",
+      "hoist tidak kuat angkat penuh"
+    ],
+    "critical": false
+  },
+  "X-HYD-110": {
+    "code": "X-HYD-110",
+    "model": "EX-2000",
+    "title": "Temperatur oli hidrolik tinggi (> 95 °C)",
+    "causes": [
+      "Oil cooler tersumbat",
+      "Level oli hidrolik rendah",
+      "Relief valve bocor internal",
+      "Fan cooler tidak optimal"
+    ],
+    "actions": [
+      "Kurangi beban kerja",
+      "Cek level oli",
+      "Bersihkan oil cooler",
+      "Ukur putaran fan",
+      "Thermo-gun pada relief valve"
+    ],
+    "symptoms": [
+      "oli hidrolik panas",
+      "gerakan melambat setelah 3 jam operasi",
+      "alarm hydraulic temperature"
+    ],
+    "critical": false
+  },
+  "X-HYD-120": {
+    "code": "X-HYD-120",
+    "model": "EX-2000",
+    "title": "Tekanan pilot rendah (< 30 bar)",
+    "causes": [
+      "Filter pilot tersumbat",
+      "Pompa pilot aus",
+      "Relief pilot valve rusak"
+    ],
+    "actions": [
+      "Ganti filter pilot",
+      "Ukur tekanan pilot di test port",
+      "Setel relief pilot"
+    ],
+    "symptoms": [
+      "semua gerakan lambat",
+      "joystick tidak responsif",
+      "boom tidak mau naik"
+    ],
+    "critical": false
+  },
+  "X-SWG-210": {
+    "code": "X-SWG-210",
+    "model": "EX-2000",
+    "title": "Swing lambat atau berbunyi abnormal",
+    "causes": [
+      "Oli swing machinery kurang/terkontaminasi",
+      "Gear swing aus",
+      "Swing brake tidak release",
+      "Swing motor bocor internal"
+    ],
+    "actions": [
+      "Cek oli swing & magnetic plug",
+      "Uji drain rate swing motor",
+      "Cek swing brake release pressure"
+    ],
+    "symptoms": [
+      "swing lambat",
+      "bunyi gemeretak saat swing",
+      "swing tersendat"
+    ],
+    "critical": false
+  },
+  "X-ENG-310": {
+    "code": "X-ENG-310",
+    "model": "EX-2000",
+    "title": "Mesin overheat",
+    "causes": [
+      "Radiator tersumbat",
+      "Coolant kurang",
+      "Fan belt",
+      "Thermostat"
+    ],
+    "actions": [
+      "Idle-kan mesin sebelum dimatikan",
+      "Bersihkan radiator",
+      "Cek coolant"
+    ],
+    "symptoms": [
+      "mesin excavator overheat",
+      "suhu engine tinggi"
+    ],
+    "critical": false
+  },
+  "X-UND-410": {
+    "code": "X-UND-410",
+    "model": "EX-2000",
+    "title": "Track kendur atau lepas",
+    "causes": [
+      "Tekanan grease track adjuster turun",
+      "Seal adjuster bocor",
+      "Idler/roller aus"
+    ],
+    "actions": [
+      "Ukur sag track (30–50 mm)",
+      "Tambah grease adjuster",
+      "Cek seal adjuster"
+    ],
+    "symptoms": [
+      "track kendur",
+      "track lepas saat travel",
+      "rantai track melorot"
+    ],
+    "critical": false
+  },
+  "X-ELC-510": {
+    "code": "X-ELC-510",
+    "model": "EX-2000",
+    "title": "Error komunikasi kontroler (CAN bus)",
+    "causes": [
+      "Konektor longgar/korosi",
+      "Harness terkelupas",
+      "Resistor terminasi rusak"
+    ],
+    "actions": [
+      "Ukur resistansi CAN (± 60 ohm)",
+      "Periksa konektor boom foot"
+    ],
+    "symptoms": [
+      "monitor error komunikasi",
+      "fungsi kontrol hilang sesaat",
+      "kode CAN muncul hilang"
+    ],
+    "critical": false
+  },
+  "D-ENG-101": {
+    "code": "D-ENG-101",
+    "model": "BD-375",
+    "title": "Mesin overheat",
+    "causes": [
+      "Radiator tersumbat material",
+      "Fan reversible tidak bekerja",
+      "Coolant kurang"
+    ],
+    "actions": [
+      "Aktifkan fan reverse",
+      "Cek coolant"
+    ],
+    "symptoms": [
+      "dozer overheat",
+      "suhu mesin dozer tinggi"
+    ],
+    "critical": false
+  },
+  "D-PT-201": {
+    "code": "D-PT-201",
+    "model": "BD-375",
+    "title": "Temperatur oli power train tinggi (> 120 °C)",
+    "causes": [
+      "Torque converter stall terlalu lama",
+      "Oil cooler tersumbat"
+    ],
+    "actions": [
+      "Kurangi beban dozing",
+      "Hindari stall > 10 detik",
+      "Bersihkan cooler"
+    ],
+    "symptoms": [
+      "power train panas",
+      "dozer kehilangan tenaga saat dozing berat"
+    ],
+    "critical": false
+  },
+  "D-UND-301": {
+    "code": "D-UND-301",
+    "model": "BD-375",
+    "title": "Track shoe bolt longgar / shoe patah",
+    "causes": [
+      "Torque baut tidak sesuai",
+      "Operasi di batuan keras dengan kecepatan tinggi"
+    ],
+    "actions": [
+      "Torque ulang baut",
+      "Inspeksi retakan shoe"
+    ],
+    "symptoms": [
+      "track shoe lepas",
+      "baut shoe longgar",
+      "bunyi ketukan dari track"
+    ],
+    "critical": false
+  }
+}

@@ -1,0 +1,13 @@
+# Hugging Face Spaces (SDK: Docker, CPU basic gratis). API + UI dalam satu container, port 7860.
+FROM python:3.11-slim
+ENV PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 MINESENSE_API_URL=http://127.0.0.1:8000 \
+    MINESENSE_DATA_DIR=/home/user/app/data MINESENSE_ARTIFACTS_DIR=/home/user/app/artifacts
+RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/* \
+ && useradd -m -u 1000 user
+WORKDIR /home/user/app
+COPY --chown=user . .
+RUN pip install ".[ui,pdf]" && minesense ingest && minesense train && mkdir -p data/uploads artifacts/feedback \
+ && chown -R user:user /home/user/app
+USER user
+EXPOSE 7860
+CMD ["bash", "docker/start_spaces.sh"]

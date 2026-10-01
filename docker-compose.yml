@@ -1,0 +1,91 @@
+# Pengembangan / single-server. Profil opsional:
+#   docker compose up -d --build                         → api + ui
+#   docker compose --profile qdrant up -d                → + Qdrant (set MINESENSE_VECTOR_BACKEND=qdrant)
+#   docker compose --profile ollama up -d                → + Ollama (LLM lokal / model fine-tune GGUF)
+#   docker compose --profile monitoring up -d            → + Prometheus + Grafana
+name: minesense
+
+x-common: &common
+  restart: unless-stopped
+  env_file:
+    - path: .env
+      required: false
+  logging:
+    driver: json-file
+    options: { max-size: "10m", max-file: "5" }
+
+services:
+  api:
+    <<: *common
+    build: { context: ., dockerfile: docker/Dockerfile, target: api }
+    image: ${IMAGE_PREFIX:-minesense}-api:${IMAGE_TAG:-latest}
+    ports: ["${API_PORT:-8000}:8000"]
+    volumes:
+      - uploads:/app/data/uploads
+      - index:/app/artifacts/index
+      - feedback:/app/artifacts/feedback
+    environment:
+      MINESENSE_QDRANT_URL: http://qdrant:6333
+      MINESENSE_ARTIFACTS_DIR: /app/artifacts
+    deploy:
+      resources:
+        limits: { cpus: "2", memory: 2g }
+
+  ui:
+    <<: *common
+    build: { context: ., dockerfile: docker/Dockerfile, target: ui }
+    image: ${IMAGE_PREFIX:-minesense}-ui:${IMAGE_TAG:-latest}
+    ports: ["${UI_PORT:-8501}:8501"]
+    environment:
+      MINESENSE_API_URL: http://api:8000
+    depends_on:
+      api: { condition: service_healthy }
+
+  qdrant:
+    <<: *common
+    profiles: [qdrant]
+    image: qdrant/qdrant:v1.12.4
+    volumes: [qdrant:/qdrant/storage]
+
+  ollama:
+    <<: *common
+    profiles: [ollama]
+    image: ollama/ollama:latest
+    volumes:
+      - ollama:/root/.ollama
+      - ./models:/models          # taruh *.gguf + Modelfile hasil fine-tune di sini
+    # GPU NVIDIA (opsional): hapus komentar di bawah
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+
+  prometheus:
+    <<: *common
+    profiles: [monitoring]
+    image: prom/prometheus:v2.54.1
+    volumes:
+      - ./deploy/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./deploy/alerts.yml:/etc/prometheus/alerts.yml:ro
+      - prometheus:/prometheus
+    ports: ["9090:9090"]
+
+  grafana:
+    <<: *common
+    profiles: [monitoring]
+    image: grafana/grafana:11.2.0
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-change-me}
+    volumes:
+      - ./deploy/grafana:/etc/grafana/provisioning:ro
+      - grafana:/var/lib/grafana
+    ports: ["3000:3000"]
+
+volumes:
+  uploads:
+  index:
+  feedback:
+  qdrant:
+  ollama:
+  prometheus:
+  grafana:

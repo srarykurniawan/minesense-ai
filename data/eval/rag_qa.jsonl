@@ -1,0 +1,41 @@
+{"question": "Berapa batas kecepatan dump truck di jalan angkut saat basah atau licin?", "doc_id": "SOP-K3-001", "keywords": ["25 km/jam"]}
+{"question": "Berapa jarak beriring minimum antar dump truck saat jalan basah?", "doc_id": "SOP-K3-001", "keywords": ["100 meter"]}
+{"question": "Berapa tinggi minimum tanggul pengaman di tepi dumping?", "doc_id": "SOP-K3-001", "keywords": ["diameter roda"]}
+{"question": "Apakah operator dump truck boleh turun dari kabin saat proses loading?", "doc_id": "SOP-K3-001", "keywords": ["dilarang turun"]}
+{"question": "Apa langkah verifikasi energi nol pada prosedur LOTO?", "doc_id": "SOP-K3-002", "keywords": ["try-out", "zero energy"]}
+{"question": "Siapa yang boleh melepas gembok LOTO jika pemiliknya tidak ada di lokasi?", "doc_id": "SOP-K3-002", "keywords": ["KTT"]}
+{"question": "Apa yang harus dipasang sebelum bekerja di bawah vessel dump truck?", "doc_id": "SOP-K3-002", "keywords": ["body prop"]}
+{"question": "Pada ketinggian berapa pekerjaan dianggap bekerja di ketinggian?", "doc_id": "SOP-K3-003", "keywords": ["1,8 meter"]}
+{"question": "Berapa kekuatan minimum anchor point untuk harness?", "doc_id": "SOP-K3-003", "keywords": ["22 kN"]}
+{"question": "Berapa lama maksimal waktu evakuasi pekerja yang tergantung harness?", "doc_id": "SOP-K3-003", "keywords": ["15 menit"]}
+{"question": "Berapa radius aman peledakan untuk manusia?", "doc_id": "SOP-K3-004", "keywords": ["500 meter"]}
+{"question": "Berapa lama harus menunggu sebelum mendekati lokasi misfire?", "doc_id": "SOP-K3-004", "keywords": ["30 menit"]}
+{"question": "Bolehkah mengebor dekat lubang misfire?", "doc_id": "SOP-K3-004", "keywords": ["1 meter"]}
+{"question": "Apa tindakan jika kecepatan pergerakan lereng 10 sampai 50 mm per hari?", "doc_id": "SOP-K3-005", "keywords": ["evakuasi", "Siaga"]}
+{"question": "Berapa faktor keamanan minimum lereng keseluruhan?", "doc_id": "SOP-K3-005", "keywords": ["1,3"]}
+{"question": "Kapan inspeksi geoteknik tambahan harus dilakukan setelah hujan?", "doc_id": "SOP-K3-005", "keywords": ["50 mm"]}
+{"question": "Berapa jam tidur minimum sebelum shift untuk operator?", "doc_id": "SOP-K3-006", "keywords": ["6 jam"]}
+{"question": "Apa tindakan jika alarm microsleep berbunyi dua kali dalam satu shift?", "doc_id": "SOP-K3-006", "keywords": ["dibebastugaskan"]}
+{"question": "Berapa batas tekanan darah operator agar boleh bekerja?", "doc_id": "SOP-K3-006", "keywords": ["160"]}
+{"question": "Berapa target waktu respons ERT di dalam pit?", "doc_id": "SOP-K3-007", "keywords": ["10 menit"]}
+{"question": "Kapan aktivitas boleh dilanjutkan setelah petir?", "doc_id": "SOP-K3-007", "keywords": ["30 menit"]}
+{"question": "Seberapa jauh operator harus menjauh dari unit yang terbakar?", "doc_id": "SOP-K3-007", "keywords": ["30 meter"]}
+{"question": "Bagaimana penanganan tumpahan oli lebih dari 200 liter?", "doc_id": "SOP-ENV-001", "keywords": ["KTT", "Besar"]}
+{"question": "Berapa lama limbah B3 tumpahan harus dikirim ke TPS?", "doc_id": "SOP-ENV-001", "keywords": ["24 jam"]}
+{"question": "Apa yang dilakukan jika pH outlet kolam pengendapan di bawah 6?", "doc_id": "SOP-ENV-002", "keywords": ["kapur"]}
+{"question": "Berapa target internal TSS di outlet kolam pengendapan?", "doc_id": "SOP-ENV-002", "keywords": ["200 mg/L"]}
+{"question": "Apa saja item kritis P2H yang membuat unit tidak boleh dioperasikan?", "doc_id": "SOP-OPS-001", "keywords": ["rem", "steering"]}
+{"question": "Berapa batas waktu laporan awal untuk insiden tingkat tinggi?", "doc_id": "SOP-K3-008", "keywords": ["4 jam"]}
+{"question": "Metode investigasi apa yang digunakan untuk insiden kritis?", "doc_id": "SOP-K3-008", "keywords": ["ICAM"]}
+{"question": "Apa penyebab kode E-ENG-101 pada dump truck?", "doc_id": "MAN-DT100", "keywords": ["radiator", "thermostat"]}
+{"question": "Apa yang harus dilakukan saat muncul kode E-BRK-301?", "doc_id": "MAN-DT100", "keywords": ["dilarang beroperasi"]}
+{"question": "Berapa interval penggantian oli hidrolik dump truck DT-100?", "doc_id": "MAN-DT100", "keywords": ["2000 jam"]}
+{"question": "Berapa tekanan pilot normal pada excavator EX-2000?", "doc_id": "MAN-EX2000", "keywords": ["30–35 bar"]}
+{"question": "Kenapa swing excavator lambat dan berbunyi?", "doc_id": "MAN-EX2000", "keywords": ["swing machinery"]}
+{"question": "Berapa resistansi normal CAN bus pada excavator?", "doc_id": "MAN-EX2000", "keywords": ["60 ohm"]}
+{"question": "Apa penyebab temperatur oli power train dozer tinggi?", "doc_id": "MAN-BD375", "keywords": ["stall"]}
+{"question": "Apa itu Kepmen ESDM 1827 K/30/MEM/2018?", "doc_id": "REG-001", "keywords": ["Kaidah Teknik Pertambangan"]}
+{"question": "Siapa yang bertanggung jawab atas keselamatan operasi di wilayah tambang?", "doc_id": "REG-001", "keywords": ["Kepala Teknik Tambang"]}
+{"question": "Bagaimana cara menghitung stripping ratio?", "doc_id": "OPS-002", "keywords": ["BCM", "ton"]}
+{"question": "Apa rumus Physical Availability?", "doc_id": "OPS-002", "keywords": ["jam breakdown"]}
+{"question": "Apa perbedaan BCM dan LCM?", "doc_id": "GLOS-001", "keywords": ["swell"]}

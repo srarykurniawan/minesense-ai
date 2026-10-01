@@ -1,0 +1,30 @@
+# Produksi (VPS): HTTPS otomatis via Caddy (Let's Encrypt), port api/ui tidak diekspos langsung.
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+# Pakai image dari registry (CI): set IMAGE_PREFIX=ghcr.io/<user>/minesense dan IMAGE_TAG=<sha> di .env,
+# lalu `docker compose -f docker-compose.yml -f docker-compose.prod.yml pull && ... up -d`
+services:
+  api:
+    ports: !reset []
+    # Caddy meneruskan /api/* (prefix dibuang) → root-path agar /api/docs & openapi.json benar
+    command: ["uvicorn", "minesense.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2",
+              "--proxy-headers", "--forwarded-allow-ips", "*", "--root-path", "/api"]
+    environment:
+      MINESENSE_ENV: prod
+  ui:
+    ports: !reset []
+  caddy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    env_file:
+    - path: .env
+      required: false
+    ports: ["80:80", "443:443", "443:443/udp"]
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [api, ui]
+
+volumes:
+  caddy_data:
+  caddy_config:

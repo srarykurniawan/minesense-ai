@@ -1,0 +1,38 @@
+# DOMAIN, UI_BASIC_AUTH_USER, UI_BASIC_AUTH_HASH diambil dari .env
+# Buat hash password: docker run --rm caddy:2.8-alpine caddy hash-password --plaintext 'passwordAnda'
+{$DOMAIN} {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy strict-origin-when-cross-origin
+		-Server
+	}
+
+	# API (dilindungi X-API-Key di aplikasi). /metrics tidak dipublikasikan.
+	@internal path /metrics /api/metrics
+	handle @internal {
+		respond 404
+	}
+	handle_path /api/* {
+		request_body {
+			max_size 25MB
+		}
+		reverse_proxy api:8000
+	}
+
+	# UI Streamlit (dilindungi basic auth)
+	handle {
+		basic_auth {
+			{$UI_BASIC_AUTH_USER} {$UI_BASIC_AUTH_HASH}
+		}
+		reverse_proxy ui:8501
+	}
+
+	log {
+		output stdout
+		format json
+	}
+}

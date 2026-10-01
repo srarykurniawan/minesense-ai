@@ -1,0 +1,801 @@
+wo_id,unit,model,fault_code,symptom,root_cause,action,downtime_hours,hour_meter
+WO-26000,EX-1654,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Pompa pilot aus,Ukur tekanan pilot di test port; Ganti filter pilot,5.2,11247
+WO-26001,EX-2644,EX-2000,X-HYD-110,oli hidrolik panas setelah hujan,Oil cooler tersumbat,Kurangi beban kerja,4.3,14596
+WO-26002,DT-2673,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan setelah hujan,Coolant kurang/bocor,Cek level coolant setelah suhu < 50 °C,2.9,46567
+WO-26003,DT-2749,DT-100,,rem terasa dalam di tanjakan ramp,Pompa rem aus,Tes rem statis; Cek kebocoran,17.5,41174
+WO-26004,EX-2139,EX-2000,X-UND-410,track kendur saat shift malam,Seal adjuster bocor,Cek seal adjuster,8.0,6327
+WO-26005,DT-1119,DT-100,E-ELC-501,unit susah starter saat shift malam,Belt alternator slip,"Cek output alternator; Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",25.9,9838
+WO-26006,DT-1373,DT-100,E-ENG-115,bunyi ketukan dari mesin,Filter oli tersumbat,Ambil sampel oli (fuel dilution); Cek level oli; Matikan mesin segera,6.3,11909
+WO-26007,DT-2695,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Seal silinder suspensi rusak,Isi ulang nitrogen,9.7,37013
+WO-26008,BD-2696,BD-375,,dozer kehilangan tenaga saat dozing berat setelah hujan,Torque converter stall terlalu lama,Bersihkan cooler; Hindari stall > 10 detik,28.4,40568
+WO-26009,DT-1932,DT-100,E-ELC-501,lampu redup setelah PM 250,Terminal baterai korosi,Bersihkan terminal,33.2,11298
+WO-26010,BD-1165,BD-375,D-UND-301,track shoe lepas setelah hujan,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,21.3,46294
+WO-26011,EX-1604,EX-2000,X-ENG-310,suhu engine tinggi setelah PM 250,Thermostat,Cek coolant; Bersihkan radiator,17.7,42304
+WO-26012,DT-1353,DT-100,E-HYD-601,vessel lambat naik saat dumping,Filter suction tersumbat,Cek level oli hidrolik; Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist,4.7,31208
+WO-26013,DT-1205,DT-100,E-ENG-115,bunyi ketukan dari mesin setelah PM 250,Filter oli tersumbat,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik; Cek level oli,32.1,6045
+WO-26014,BD-1619,BD-375,D-PT-201,power train panas setelah PM 250,Torque converter stall terlalu lama,Hindari stall > 10 detik; Kurangi beban dozing,21.4,41794
+WO-26015,EX-3024,EX-2000,,boom tidak mau naik,Relief pilot valve rusak,Ganti filter pilot; Ukur tekanan pilot di test port,6.7,33458
+WO-26016,EX-1745,EX-2000,X-ELC-510,kode CAN muncul hilang di tanjakan ramp,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,13.3,20157
+WO-26017,DT-2313,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,9.8,43539
+WO-26018,EX-1801,EX-2000,X-ELC-510,kode CAN muncul hilang setelah PM 250,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm),10.8,20994
+WO-26019,BD-2110,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat,Torque converter stall terlalu lama,Bersihkan cooler; Hindari stall > 10 detik,29.1,1876
+WO-26020,EX-1777,EX-2000,X-UND-410,rantai track melorot setelah hujan,Idler/roller aus,Tambah grease adjuster; Cek seal adjuster; Ukur sag track (30–50 mm),16.4,18067
+WO-26021,DT-2297,DT-100,E-ELC-501,unit susah starter setelah PM 250,Kabel ground rusak,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V)",10.0,30845
+WO-26022,BD-1630,BD-375,,baut shoe longgar setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut; Inspeksi retakan shoe,3.4,27372
+WO-26023,EX-1114,EX-2000,X-UND-410,rantai track melorot saat shift malam,Idler/roller aus,Ukur sag track (30–50 mm),20.8,11532
+WO-26024,DT-1895,DT-100,,guncangan berlebih di tanjakan ramp,Seal silinder suspensi rusak,Ukur ride height,21.5,21896
+WO-26025,EX-2674,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,22.6,20641
+WO-26026,DT-1111,DT-100,E-ELC-501,lampu redup setelah hujan,Alternator rusak,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",20.1,7563
+WO-26027,DT-1920,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Pompa hoist aus,Cek level oli hidrolik; Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist,6.1,43298
+WO-26028,DT-2525,DT-100,E-TRM-201,transmisi panas,Oil cooler tersumbat,Kurangi beban,18.7,8582
+WO-26029,EX-3046,EX-2000,X-UND-410,rantai track melorot di tanjakan ramp,Idler/roller aus,Tambah grease adjuster,11.1,1752
+WO-26030,DT-1240,DT-100,E-BRK-301,alarm tekanan rem setelah PM 250,Pompa rem aus,Ukur tekanan nitrogen accumulator,35.6,9953
+WO-26031,DT-2968,DT-100,E-ENG-101,coolant cepat habis setelah PM 250,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C; Cek fan belt,11.6,22649
+WO-26032,EX-1487,EX-2000,X-ELC-510,kode CAN muncul hilang setelah hujan,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),26.2,15467
+WO-26033,EX-1594,EX-2000,X-SWG-210,swing lambat di tanjakan ramp,Gear swing aus,Cek swing brake release pressure,7.4,2321
+WO-26034,EX-2037,EX-2000,X-SWG-210,swing lambat setelah PM 250,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor,28.8,8590
+WO-26035,EX-2829,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Swing motor bocor internal,Cek swing brake release pressure; Cek oli swing & magnetic plug; Uji drain rate swing motor,27.5,39743
+WO-26036,EX-1455,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Relief pilot valve rusak,Setel relief pilot; Ganti filter pilot; Ukur tekanan pilot di test port,1.2,15574
+WO-26037,BD-1023,BD-375,D-ENG-101,dozer overheat,Fan reversible tidak bekerja,Aktifkan fan reverse; Cek coolant,7.5,11770
+WO-26038,EX-1191,EX-2000,X-ENG-310,mesin excavator overheat setelah hujan,Coolant kurang,Bersihkan radiator; Idle-kan mesin sebelum dimatikan; Cek coolant,6.9,17208
+WO-26039,EX-1701,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi setelah PM 250,Oil cooler tersumbat,Thermo-gun pada relief valve; Cek level oli,20.5,41272
+WO-26040,DT-1672,DT-100,E-ENG-115,bunyi ketukan dari mesin di tanjakan ramp,Level oli rendah,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution),27.3,17195
+WO-26041,EX-2982,EX-2000,X-HYD-110,oli hidrolik panas saat shift malam,Level oli hidrolik rendah,Cek level oli; Ukur putaran fan; Bersihkan oil cooler,27.0,34338
+WO-26042,EX-1430,EX-2000,X-ENG-310,suhu engine tinggi di tanjakan ramp,Radiator tersumbat,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,20.1,8321
+WO-26043,DT-1925,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan saat shift malam,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C,5.9,45307
+WO-26044,EX-1260,EX-2000,X-HYD-110,alarm hydraulic temperature setelah PM 250,Relief valve bocor internal,Ukur putaran fan,12.1,47095
+WO-26045,DT-2731,DT-100,E-ENG-101,mesin overheat,Thermostat macet,Cek fan belt; Uji thermostat,26.2,39342
+WO-26046,DT-1522,DT-100,E-ELC-501,unit susah starter,Alternator rusak,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",16.3,28053
+WO-26047,DT-2012,DT-100,E-BRK-301,pengereman tidak pakem saat turunan setelah PM 250,Nitrogen accumulator rendah,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Cek kebocoran; Ukur tekanan nitrogen accumulator",11.1,44502
+WO-26048,BD-2544,BD-375,D-UND-301,bunyi ketukan dari track di tanjakan ramp,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,34.3,27365
+WO-26049,EX-2836,EX-2000,X-ELC-510,monitor error komunikasi setelah hujan,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),22.4,40074
+WO-26050,DT-1037,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Terminal baterai korosi,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",26.7,10145
+WO-26051,DT-2248,DT-100,,coolant cepat habis di tanjakan ramp,Thermostat macet,Cek fan belt; Cek level coolant setelah suhu < 50 °C,16.0,41749
+WO-26052,EX-2874,EX-2000,X-ELC-510,kode CAN muncul hilang setelah PM 250,Harness terkelupas,Ukur resistansi CAN (± 60 ohm),24.6,17905
+WO-26053,EX-3086,EX-2000,X-UND-410,track lepas saat travel,Idler/roller aus,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),22.1,34234
+WO-26054,EX-2407,EX-2000,X-SWG-210,bunyi gemeretak saat swing di tanjakan ramp,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek oli swing & magnetic plug,26.5,36355
+WO-26055,DT-1041,DT-100,E-BRK-301,alarm tekanan rem setelah hujan,Nitrogen accumulator rendah,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Cek kebocoran",6.4,43143
+WO-26056,EX-2633,EX-2000,,monitor error komunikasi saat shift malam,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,16.8,27198
+WO-26057,EX-2109,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,9.5,35284
+WO-26058,DT-2352,DT-100,E-BRK-301,pengereman tidak pakem saat turunan,Kebocoran selang rem,Cek kebocoran,24.2,36645
+WO-26059,EX-1060,EX-2000,,gerakan melambat setelah 3 jam operasi saat shift malam,Fan cooler tidak optimal,Kurangi beban kerja; Bersihkan oil cooler,34.6,25484
+WO-26060,DT-2599,DT-100,E-ENG-101,mesin overheat setelah hujan,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C,14.8,40008
+WO-26061,EX-2200,EX-2000,,track lepas saat travel di tanjakan ramp,Idler/roller aus,Ukur sag track (30–50 mm),9.8,38249
+WO-26062,DT-1213,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah PM 250,Filter suction tersumbat,Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist; Cek level oli hidrolik,17.5,2478
+WO-26063,DT-1128,DT-100,,pengereman tidak pakem saat turunan,Pompa rem aus,Cek kebocoran; Tes rem statis,27.1,29231
+WO-26064,EX-2211,EX-2000,X-UND-410,track kendur setelah hujan,Idler/roller aus,Ukur sag track (30–50 mm),34.9,9819
+WO-26065,DT-2642,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Pompa oli aus,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,13.8,20918
+WO-26066,DT-2410,DT-100,E-ENG-115,lampu tekanan oli menyala setelah hujan,Pompa oli aus,Cek level oli,16.0,32505
+WO-26067,DT-1033,DT-100,E-SUS-401,unit miring ke satu sisi,Seal silinder suspensi rusak,Ukur ride height; Ganti seal bila bocor,8.1,42828
+WO-26068,EX-2968,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah hujan,Swing motor bocor internal,Uji drain rate swing motor,11.3,20111
+WO-26069,EX-1950,EX-2000,X-ENG-310,mesin excavator overheat,Fan belt,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,11.6,33253
+WO-26070,DT-1417,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi saat shift malam,Oil cooler tersumbat,Bersihkan cooler; Tes stall,29.9,40255
+WO-26071,DT-1375,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Level oli rendah,Cek level oli; Verifikasi dengan manometer mekanik; Matikan mesin segera,2.9,32152
+WO-26072,EX-2010,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi setelah hujan,Level oli hidrolik rendah,Ukur putaran fan; Thermo-gun pada relief valve; Kurangi beban kerja,20.2,47885
+WO-26073,EX-2419,EX-2000,,suhu engine tinggi saat shift malam,Fan belt,Idle-kan mesin sebelum dimatikan,31.0,7845
+WO-26074,EX-1345,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah PM 250,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),2.4,4622
+WO-26075,DT-2259,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Pengenceran oli oleh bahan bakar,Matikan mesin segera; Cek level oli,8.7,25194
+WO-26076,DT-2212,DT-100,,hoist tidak kuat angkat penuh setelah PM 250,Setting relief valve turun,Ukur tekanan relief hoist,28.5,31428
+WO-26077,DT-2186,DT-100,E-BRK-301,rem terasa dalam setelah hujan,Nitrogen accumulator rendah,Ukur tekanan nitrogen accumulator; Tes rem statis; Cek kebocoran,21.9,3601
+WO-26078,EX-1512,EX-2000,X-ENG-310,mesin excavator overheat saat shift malam,Coolant kurang,Cek coolant; Idle-kan mesin sebelum dimatikan,15.5,5698
+WO-26079,DT-2944,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah PM 250,Pompa hoist aus,Cek waktu angkat (± 20 detik); Cek level oli hidrolik; Ukur tekanan relief hoist,32.1,37691
+WO-26080,DT-1805,DT-100,,unit kehilangan tenaga di tanjakan di tanjakan ramp,Kopling slip,Tes stall,29.9,29694
+WO-26081,DT-2253,DT-100,E-ELC-501,unit susah starter di tanjakan ramp,Terminal baterai korosi,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",30.0,15139
+WO-26082,EX-1440,EX-2000,X-ENG-310,mesin excavator overheat setelah PM 250,Coolant kurang,Cek coolant; Idle-kan mesin sebelum dimatikan,24.8,13520
+WO-26083,EX-2814,EX-2000,X-SWG-210,swing tersendat di tanjakan ramp,Swing brake tidak release,Uji drain rate swing motor; Cek oli swing & magnetic plug,33.6,40029
+WO-26084,EX-2623,EX-2000,,monitor error komunikasi saat shift malam,Resistor terminasi rusak,Periksa konektor boom foot,22.0,18039
+WO-26085,EX-1119,EX-2000,X-ELC-510,monitor error komunikasi setelah PM 250,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),4.5,36082
+WO-26086,EX-1959,EX-2000,X-ENG-310,mesin excavator overheat setelah PM 250,Thermostat,Cek coolant,24.8,23507
+WO-26087,DT-2208,DT-100,E-ELC-501,lampu redup saat shift malam,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",26.6,34924
+WO-26088,EX-3009,EX-2000,X-SWG-210,swing tersendat setelah hujan,Swing motor bocor internal,Uji drain rate swing motor; Cek swing brake release pressure; Cek oli swing & magnetic plug,25.7,24041
+WO-26089,DT-2896,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Ukur ride height; Ganti seal bila bocor; Isi ulang nitrogen,22.1,44622
+WO-26090,DT-1336,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan di tanjakan ramp,Oil cooler tersumbat,Cek level oli transmisi; Bersihkan cooler,33.4,39250
+WO-26091,EX-3034,EX-2000,X-SWG-210,swing lambat di tanjakan ramp,Swing brake tidak release,Cek oli swing & magnetic plug; Uji drain rate swing motor,6.2,26838
+WO-26092,DT-1860,DT-100,E-BRK-301,pengereman tidak pakem saat turunan,Kebocoran selang rem,Cek kebocoran,12.6,29669
+WO-26093,DT-2127,DT-100,E-BRK-301,pengereman tidak pakem saat turunan,Kebocoran selang rem,Cek kebocoran; Ukur tekanan nitrogen accumulator; Tes rem statis,12.4,1944
+WO-26094,DT-1193,DT-100,E-ENG-101,coolant cepat habis di tanjakan ramp,Water pump rusak,Uji thermostat; Cek level coolant setelah suhu < 50 °C; Idle-kan mesin 5 menit sebelum dimatikan,5.7,29067
+WO-26095,BD-2283,BD-375,D-ENG-101,suhu mesin dozer tinggi,Coolant kurang,Aktifkan fan reverse,19.6,2554
+WO-26096,BD-1498,BD-375,,dozer kehilangan tenaga saat dozing berat,Torque converter stall terlalu lama,Hindari stall > 10 detik; Kurangi beban dozing; Bersihkan cooler,9.1,39505
+WO-26097,DT-2260,DT-100,,unit kehilangan tenaga di tanjakan di tanjakan ramp,Level oli transmisi kurang,Cek level oli transmisi,31.2,24108
+WO-26098,DT-2344,DT-100,E-BRK-301,pengereman tidak pakem saat turunan setelah PM 250,Kebocoran selang rem,"Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",28.8,34117
+WO-26099,DT-1870,DT-100,E-BRK-301,rem terasa dalam setelah hujan,Kebocoran selang rem,"Ukur tekanan nitrogen accumulator; Unit dilarang beroperasi, pasang tag DO NOT OPERATE",7.8,5766
+WO-26100,EX-2802,EX-2000,,suhu engine tinggi saat shift malam,Thermostat,Bersihkan radiator,25.0,34600
+WO-26101,EX-1248,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm),22.7,36887
+WO-26102,EX-2009,EX-2000,,suhu engine tinggi di tanjakan ramp,Thermostat,Bersihkan radiator,12.4,26486
+WO-26103,EX-1474,EX-2000,,fungsi kontrol hilang sesaat setelah hujan,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),10.8,26948
+WO-26104,DT-1116,DT-100,E-ENG-115,lampu tekanan oli menyala di tanjakan ramp,Filter oli tersumbat,Cek level oli; Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution),19.8,28844
+WO-26105,EX-1726,EX-2000,X-ELC-510,monitor error komunikasi setelah hujan,Harness terkelupas,Periksa konektor boom foot,13.9,17904
+WO-26106,EX-2892,EX-2000,X-HYD-120,semua gerakan lambat,Filter pilot tersumbat,Setel relief pilot; Ukur tekanan pilot di test port; Ganti filter pilot,12.0,14617
+WO-26107,EX-1154,EX-2000,X-ENG-310,suhu engine tinggi,Fan belt,Bersihkan radiator; Idle-kan mesin sebelum dimatikan,20.4,1280
+WO-26108,DT-2994,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Seal silinder suspensi rusak,Ukur ride height,15.5,34565
+WO-26109,DT-1942,DT-100,E-BRK-301,alarm tekanan rem,Nitrogen accumulator rendah,Ukur tekanan nitrogen accumulator; Tes rem statis; Cek kebocoran,28.7,2616
+WO-26110,BD-2066,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Coolant kurang,Cek coolant,31.1,44406
+WO-26111,DT-3086,DT-100,E-ENG-101,indikator temperatur merah setelah PM 250,Water pump rusak,Cek level coolant setelah suhu < 50 °C,10.1,22165
+WO-26112,EX-1505,EX-2000,X-UND-410,track kendur di tanjakan ramp,Tekanan grease track adjuster turun,Ukur sag track (30–50 mm); Tambah grease adjuster; Cek seal adjuster,32.0,2594
+WO-26113,BD-1144,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah hujan,Coolant kurang,Aktifkan fan reverse; Cek coolant,34.1,39908
+WO-26114,DT-3098,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi setelah hujan,Pola operasi rpm tinggi gigi rendah,Tes stall,8.8,27722
+WO-26115,EX-1035,EX-2000,X-SWG-210,swing lambat saat shift malam,Swing motor bocor internal,Cek oli swing & magnetic plug; Uji drain rate swing motor,22.6,8587
+WO-26116,EX-1524,EX-2000,X-UND-410,track kendur setelah PM 250,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),12.9,12135
+WO-26117,DT-1143,DT-100,E-ENG-115,lampu tekanan oli menyala,Pengenceran oli oleh bahan bakar,Cek level oli,13.1,31466
+WO-26118,DT-3027,DT-100,E-SUS-401,unit miring ke satu sisi,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ukur ride height,30.3,19033
+WO-26119,DT-1984,DT-100,E-BRK-301,alarm tekanan rem setelah hujan,Pompa rem aus,Cek kebocoran,23.3,5099
+WO-26120,BD-2908,BD-375,,track shoe lepas setelah hujan,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut,26.4,37770
+WO-26121,BD-1839,BD-375,D-UND-301,bunyi ketukan dari track di tanjakan ramp,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,13.7,33706
+WO-26122,EX-1877,EX-2000,X-SWG-210,swing lambat setelah hujan,Gear swing aus,Uji drain rate swing motor,4.0,36168
+WO-26123,DT-2768,DT-100,,tekanan oli drop saat idle setelah PM 250,Level oli rendah,Ambil sampel oli (fuel dilution),14.0,4493
+WO-26124,BD-1230,BD-375,D-UND-301,baut shoe longgar saat shift malam,Torque baut tidak sesuai,Inspeksi retakan shoe,5.9,3503
+WO-26125,DT-1288,DT-100,E-ENG-115,tekanan oli drop saat idle saat shift malam,Sensor tekanan rusak,Cek level oli; Verifikasi dengan manometer mekanik,7.5,36832
+WO-26126,DT-1246,DT-100,,indikator temperatur merah,Radiator tersumbat debu/lumpur,Cek fan belt; Uji thermostat,9.1,23058
+WO-26127,DT-1142,DT-100,E-ENG-101,mesin overheat saat shift malam,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C; Cek fan belt,6.6,7329
+WO-26128,DT-2936,DT-100,E-BRK-301,pengereman tidak pakem saat turunan setelah PM 250,Kebocoran selang rem,"Tes rem statis; Ukur tekanan nitrogen accumulator; Unit dilarang beroperasi, pasang tag DO NOT OPERATE",23.8,33680
+WO-26129,DT-2145,DT-100,E-SUS-401,guncangan berlebih setelah hujan,Kebocoran gas nitrogen suspensi,Ukur ride height,28.6,33704
+WO-26130,DT-2863,DT-100,E-BRK-301,alarm tekanan rem,Pompa rem aus,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE",9.2,4725
+WO-26131,DT-1591,DT-100,,unit miring ke satu sisi setelah hujan,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ukur ride height,14.6,10641
+WO-26132,EX-1582,EX-2000,X-ENG-310,suhu engine tinggi,Coolant kurang,Cek coolant,32.9,44736
+WO-26133,DT-2540,DT-100,E-ENG-101,coolant cepat habis saat shift malam,Water pump rusak,Bersihkan radiator; Cek fan belt,7.9,13168
+WO-26134,BD-1535,BD-375,D-ENG-101,dozer overheat saat shift malam,Coolant kurang,Cek coolant; Aktifkan fan reverse,3.3,31714
+WO-26135,EX-2437,EX-2000,,swing tersendat setelah hujan,Oli swing machinery kurang/terkontaminasi,Cek oli swing & magnetic plug; Uji drain rate swing motor; Cek swing brake release pressure,1.8,8131
+WO-26136,DT-2658,DT-100,E-BRK-301,rem terasa dalam di tanjakan ramp,Pompa rem aus,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Cek kebocoran; Tes rem statis",25.5,40957
+WO-26137,BD-2899,BD-375,D-ENG-101,dozer overheat saat shift malam,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,2.6,1833
+WO-26138,EX-2796,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Pompa pilot aus,Ukur tekanan pilot di test port; Ganti filter pilot,20.3,7004
+WO-26139,DT-1536,DT-100,,alarm tekanan rem setelah PM 250,Pompa rem aus,Tes rem statis,11.2,4499
+WO-26140,EX-1809,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,35.3,19458
+WO-26141,EX-1647,EX-2000,,semua gerakan lambat setelah PM 250,Relief pilot valve rusak,Ukur tekanan pilot di test port; Setel relief pilot,20.9,35788
+WO-26142,BD-1689,BD-375,,dozer overheat,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,6.4,33421
+WO-26143,DT-1009,DT-100,,unit miring ke satu sisi saat shift malam,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ukur ride height,1.1,35212
+WO-26144,EX-1456,EX-2000,X-ELC-510,monitor error komunikasi setelah PM 250,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),0.6,35350
+WO-26145,DT-1379,DT-100,E-TRM-201,transmisi panas,Level oli transmisi kurang,Kurangi beban; Cek level oli transmisi,27.2,42341
+WO-26146,DT-2871,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor,21.2,36060
+WO-26147,BD-1337,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Torque converter stall terlalu lama,Kurangi beban dozing; Hindari stall > 10 detik,31.3,37088
+WO-26148,BD-1095,BD-375,D-ENG-101,dozer overheat,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,29.5,39832
+WO-26149,EX-1397,EX-2000,X-HYD-120,joystick tidak responsif,Relief pilot valve rusak,Ganti filter pilot,9.2,30407
+WO-26150,DT-2513,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan setelah PM 250,Level oli transmisi kurang,Kurangi beban; Cek level oli transmisi; Tes stall,12.2,10474
+WO-26151,EX-1050,EX-2000,,swing tersendat setelah hujan,Gear swing aus,Cek oli swing & magnetic plug,7.7,16874
+WO-26152,EX-2026,EX-2000,X-HYD-120,joystick tidak responsif di tanjakan ramp,Pompa pilot aus,Ganti filter pilot; Ukur tekanan pilot di test port,32.1,19113
+WO-26153,EX-1566,EX-2000,X-ELC-510,monitor error komunikasi,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,23.4,2250
+WO-26154,DT-2830,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor; Ukur ride height; Isi ulang nitrogen,27.7,1273
+WO-26155,DT-3052,DT-100,E-SUS-401,suspensi bocor oli setelah hujan,Seal silinder suspensi rusak,Ukur ride height,18.1,46342
+WO-26156,EX-2277,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Coolant kurang,Idle-kan mesin sebelum dimatikan; Bersihkan radiator,33.5,23773
+WO-26157,BD-1388,BD-375,D-PT-201,power train panas saat shift malam,Torque converter stall terlalu lama,Hindari stall > 10 detik,20.4,10341
+WO-26158,EX-2418,EX-2000,X-ENG-310,mesin excavator overheat setelah hujan,Radiator tersumbat,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,10.7,27255
+WO-26159,DT-1898,DT-100,,pengereman tidak pakem saat turunan saat shift malam,Kebocoran selang rem,Tes rem statis,15.6,2742
+WO-26160,DT-2878,DT-100,,bunyi ketukan dari mesin saat shift malam,Level oli rendah,Cek level oli,3.7,12719
+WO-26161,DT-1513,DT-100,,hoist tidak kuat angkat penuh,Pompa hoist aus,Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist; Cek level oli hidrolik,32.6,36088
+WO-26162,EX-1920,EX-2000,X-UND-410,track lepas saat travel setelah hujan,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster,27.9,18144
+WO-26163,EX-2717,EX-2000,X-SWG-210,swing lambat di tanjakan ramp,Swing motor bocor internal,Cek oli swing & magnetic plug; Uji drain rate swing motor; Cek swing brake release pressure,30.8,20850
+WO-26164,EX-1029,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm),26.0,42220
+WO-26165,DT-2728,DT-100,,vessel lambat naik saat dumping setelah hujan,Setting relief valve turun,Cek level oli hidrolik; Ukur tekanan relief hoist,36.0,36245
+WO-26166,DT-2615,DT-100,E-ELC-501,lampu redup saat shift malam,Belt alternator slip,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator",0.6,26889
+WO-26167,BD-2131,BD-375,D-ENG-101,dozer overheat saat shift malam,Coolant kurang,Cek coolant; Aktifkan fan reverse,34.5,41924
+WO-26168,BD-1330,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat di tanjakan ramp,Oil cooler tersumbat,Hindari stall > 10 detik; Bersihkan cooler; Kurangi beban dozing,21.0,43084
+WO-26169,DT-3091,DT-100,E-HYD-601,hoist tidak kuat angkat penuh,Setting relief valve turun,Cek level oli hidrolik,20.6,20948
+WO-26170,DT-2260,DT-100,,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,26.3,25999
+WO-26171,DT-2036,DT-100,E-SUS-401,guncangan berlebih di tanjakan ramp,Kebocoran gas nitrogen suspensi,Ukur ride height,27.2,11923
+WO-26172,EX-2160,EX-2000,X-UND-410,rantai track melorot setelah hujan,Seal adjuster bocor,Ukur sag track (30–50 mm); Cek seal adjuster; Tambah grease adjuster,3.6,9308
+WO-26173,DT-2899,DT-100,E-BRK-301,pengereman tidak pakem saat turunan saat shift malam,Pompa rem aus,"Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",30.9,29317
+WO-26174,EX-2178,EX-2000,X-HYD-110,alarm hydraulic temperature setelah PM 250,Relief valve bocor internal,Bersihkan oil cooler,31.2,12915
+WO-26175,DT-2064,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi di tanjakan ramp,Kopling slip,Tes stall; Bersihkan cooler; Kurangi beban,1.1,7644
+WO-26176,DT-2274,DT-100,E-BRK-301,rem terasa dalam setelah hujan,Kebocoran selang rem,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE",27.1,6591
+WO-26177,DT-1209,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Belt alternator slip,"Ukur tegangan pengisian (27–28,5 V)",26.9,35795
+WO-26178,BD-3070,BD-375,D-ENG-101,dozer overheat,Radiator tersumbat material,Cek coolant,35.6,14479
+WO-26179,DT-1203,DT-100,,monitor panel mati hidup setelah PM 250,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator; Bersihkan terminal",29.2,3325
+WO-26180,DT-3034,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan,Coolant kurang/bocor,Cek fan belt; Idle-kan mesin 5 menit sebelum dimatikan,21.4,31781
+WO-26181,BD-1209,BD-375,D-ENG-101,dozer overheat setelah hujan,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,9.7,39331
+WO-26182,EX-1316,EX-2000,X-SWG-210,swing tersendat,Swing motor bocor internal,Uji drain rate swing motor; Cek swing brake release pressure; Cek oli swing & magnetic plug,16.0,15844
+WO-26183,EX-2818,EX-2000,X-ENG-310,mesin excavator overheat setelah PM 250,Coolant kurang,Idle-kan mesin sebelum dimatikan; Cek coolant; Bersihkan radiator,0.6,10217
+WO-26184,BD-2748,BD-375,,dozer kehilangan tenaga saat dozing berat,Torque converter stall terlalu lama,Kurangi beban dozing; Hindari stall > 10 detik; Bersihkan cooler,25.0,8478
+WO-26185,BD-2574,BD-375,D-UND-301,bunyi ketukan dari track setelah PM 250,Torque baut tidak sesuai,Torque ulang baut,17.9,9104
+WO-26186,DT-1435,DT-100,E-HYD-601,hoist tidak kuat angkat penuh di tanjakan ramp,Filter suction tersumbat,Cek level oli hidrolik; Cek waktu angkat (± 20 detik),0.7,19995
+WO-26187,DT-1696,DT-100,E-ENG-101,mesin overheat,Water pump rusak,Bersihkan radiator; Cek fan belt,24.3,20412
+WO-26188,DT-1498,DT-100,E-HYD-601,vessel lambat naik saat dumping saat shift malam,Pompa hoist aus,Ukur tekanan relief hoist,1.9,26395
+WO-26189,EX-1082,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat di tanjakan ramp,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),16.2,45937
+WO-26190,EX-2494,EX-2000,X-UND-410,track kendur setelah PM 250,Tekanan grease track adjuster turun,Cek seal adjuster; Ukur sag track (30–50 mm),33.9,10508
+WO-26191,DT-1595,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi setelah hujan,Kopling slip,Kurangi beban,0.7,1832
+WO-26192,DT-1868,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Pompa hoist aus,Cek level oli hidrolik; Ukur tekanan relief hoist,25.2,41832
+WO-26193,EX-1903,EX-2000,,alarm hydraulic temperature,Level oli hidrolik rendah,Thermo-gun pada relief valve; Bersihkan oil cooler,11.2,8221
+WO-26194,BD-1192,BD-375,,suhu mesin dozer tinggi saat shift malam,Coolant kurang,Aktifkan fan reverse,13.6,5870
+WO-26195,EX-2656,EX-2000,X-ELC-510,kode CAN muncul hilang setelah hujan,Harness terkelupas,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),9.2,44961
+WO-26196,EX-2335,EX-2000,,mesin excavator overheat,Coolant kurang,Cek coolant; Idle-kan mesin sebelum dimatikan,4.7,19296
+WO-26197,BD-2739,BD-375,D-UND-301,bunyi ketukan dari track setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut; Inspeksi retakan shoe,4.8,32163
+WO-26198,EX-2840,EX-2000,X-HYD-110,alarm hydraulic temperature,Relief valve bocor internal,Kurangi beban kerja; Cek level oli,12.2,7654
+WO-26199,DT-2064,DT-100,E-SUS-401,guncangan berlebih setelah hujan,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor; Ukur ride height,30.8,43109
+WO-26200,DT-1078,DT-100,E-ENG-115,bunyi ketukan dari mesin di tanjakan ramp,Sensor tekanan rusak,Cek level oli; Matikan mesin segera,28.4,29716
+WO-26201,EX-2467,EX-2000,,track kendur,Seal adjuster bocor,Tambah grease adjuster; Cek seal adjuster,4.1,31391
+WO-26202,DT-2969,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah hujan,Level oli hidrolik rendah,Ukur tekanan relief hoist; Cek level oli hidrolik; Cek waktu angkat (± 20 detik),23.3,16265
+WO-26203,BD-2258,BD-375,D-UND-301,baut shoe longgar setelah hujan,Torque baut tidak sesuai,Torque ulang baut,19.3,13370
+WO-26204,BD-1742,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat di tanjakan ramp,Oil cooler tersumbat,Hindari stall > 10 detik,6.3,12521
+WO-26205,EX-1762,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Fan belt,Cek coolant; Bersihkan radiator,30.1,4194
+WO-26206,BD-2546,BD-375,D-PT-201,power train panas di tanjakan ramp,Oil cooler tersumbat,Hindari stall > 10 detik; Kurangi beban dozing,5.6,5630
+WO-26207,DT-2711,DT-100,E-HYD-601,hoist tidak kuat angkat penuh di tanjakan ramp,Setting relief valve turun,Cek waktu angkat (± 20 detik),13.2,9416
+WO-26208,DT-2079,DT-100,E-HYD-601,hoist tidak kuat angkat penuh,Filter suction tersumbat,Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist; Cek level oli hidrolik,33.7,26980
+WO-26209,EX-2064,EX-2000,,gerakan melambat setelah 3 jam operasi saat shift malam,Level oli hidrolik rendah,Bersihkan oil cooler,28.5,46243
+WO-26210,DT-2341,DT-100,E-SUS-401,guncangan berlebih,Seal silinder suspensi rusak,Ganti seal bila bocor,16.5,18067
+WO-26211,DT-1237,DT-100,E-ENG-101,coolant cepat habis di tanjakan ramp,Fan belt slip/putus,Bersihkan radiator,18.3,31567
+WO-26212,BD-1114,BD-375,D-UND-301,baut shoe longgar,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,28.2,18217
+WO-26213,DT-2866,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Kebocoran gas nitrogen suspensi,Ukur ride height; Isi ulang nitrogen,6.9,47479
+WO-26214,DT-2904,DT-100,E-ELC-501,unit susah starter,Belt alternator slip,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",23.6,33318
+WO-26215,BD-1674,BD-375,,dozer overheat di tanjakan ramp,Coolant kurang,Cek coolant,11.0,41621
+WO-26216,EX-1954,EX-2000,,rantai track melorot setelah PM 250,Tekanan grease track adjuster turun,Tambah grease adjuster; Cek seal adjuster,6.7,7987
+WO-26217,BD-1122,BD-375,D-ENG-101,dozer overheat saat shift malam,Coolant kurang,Aktifkan fan reverse,27.0,38466
+WO-26218,DT-1318,DT-100,,indikator temperatur merah di tanjakan ramp,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C; Cek fan belt,19.9,5882
+WO-26219,BD-1795,BD-375,D-PT-201,power train panas di tanjakan ramp,Oil cooler tersumbat,Kurangi beban dozing,28.1,23641
+WO-26220,DT-2693,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan saat shift malam,Radiator tersumbat debu/lumpur,Uji thermostat; Cek level coolant setelah suhu < 50 °C,7.0,19527
+WO-26221,EX-2142,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm),15.9,17037
+WO-26222,DT-2332,DT-100,E-ENG-101,mesin overheat di tanjakan ramp,Water pump rusak,Uji thermostat,6.0,24124
+WO-26223,EX-1648,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Radiator tersumbat,Cek coolant; Idle-kan mesin sebelum dimatikan; Bersihkan radiator,18.0,36649
+WO-26224,DT-2223,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi,Oil cooler tersumbat,Kurangi beban; Cek level oli transmisi; Tes stall,20.5,29330
+WO-26225,DT-1704,DT-100,E-ENG-115,tekanan oli drop saat idle setelah hujan,Filter oli tersumbat,Verifikasi dengan manometer mekanik; Cek level oli,6.4,43439
+WO-26226,EX-2531,EX-2000,,bunyi gemeretak saat swing setelah hujan,Swing brake tidak release,Cek swing brake release pressure,26.2,34339
+WO-26227,BD-2691,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah hujan,Fan reversible tidak bekerja,Cek coolant,1.3,4122
+WO-26228,DT-2522,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C; Idle-kan mesin 5 menit sebelum dimatikan; Cek fan belt,34.0,16810
+WO-26229,DT-1643,DT-100,E-ENG-115,lampu tekanan oli menyala saat shift malam,Pengenceran oli oleh bahan bakar,Matikan mesin segera; Ambil sampel oli (fuel dilution),7.3,14719
+WO-26230,DT-1167,DT-100,E-ELC-501,lampu redup,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V)",13.8,43927
+WO-26231,EX-2162,EX-2000,X-ENG-310,mesin excavator overheat setelah hujan,Fan belt,Idle-kan mesin sebelum dimatikan,26.0,3388
+WO-26232,EX-1794,EX-2000,X-HYD-110,oli hidrolik panas setelah PM 250,Fan cooler tidak optimal,Thermo-gun pada relief valve; Bersihkan oil cooler; Ukur putaran fan,9.2,11830
+WO-26233,EX-1110,EX-2000,X-SWG-210,swing lambat,Gear swing aus,Cek oli swing & magnetic plug; Uji drain rate swing motor,27.0,36482
+WO-26234,EX-1663,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi,Oil cooler tersumbat,Bersihkan oil cooler,2.5,23045
+WO-26235,EX-1995,EX-2000,X-ELC-510,monitor error komunikasi saat shift malam,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,14.8,6131
+WO-26236,BD-1061,BD-375,D-UND-301,track shoe lepas,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,21.6,18776
+WO-26237,DT-1543,DT-100,E-TRM-201,transmisi panas setelah PM 250,Oil cooler tersumbat,Bersihkan cooler; Tes stall,16.3,47271
+WO-26238,EX-1525,EX-2000,X-HYD-110,alarm hydraulic temperature di tanjakan ramp,Oil cooler tersumbat,Bersihkan oil cooler; Cek level oli,30.9,19161
+WO-26239,BD-1422,BD-375,D-UND-301,baut shoe longgar di tanjakan ramp,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe,5.5,2864
+WO-26240,BD-1649,BD-375,D-ENG-101,dozer overheat setelah PM 250,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,31.7,18801
+WO-26241,EX-1258,EX-2000,X-ENG-310,mesin excavator overheat,Coolant kurang,Idle-kan mesin sebelum dimatikan; Cek coolant,8.7,22949
+WO-26242,EX-1412,EX-2000,X-UND-410,track kendur saat shift malam,Tekanan grease track adjuster turun,Ukur sag track (30–50 mm); Tambah grease adjuster,4.2,16782
+WO-26243,DT-2069,DT-100,E-ENG-115,tekanan oli drop saat idle saat shift malam,Sensor tekanan rusak,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution),35.1,25734
+WO-26244,EX-1968,EX-2000,X-HYD-120,boom tidak mau naik setelah PM 250,Filter pilot tersumbat,Ganti filter pilot,9.5,45463
+WO-26245,EX-1170,EX-2000,X-ENG-310,suhu engine tinggi di tanjakan ramp,Radiator tersumbat,Idle-kan mesin sebelum dimatikan; Cek coolant; Bersihkan radiator,23.0,38855
+WO-26246,DT-1391,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah hujan,Pompa hoist aus,Cek level oli hidrolik,22.4,4946
+WO-26247,DT-1235,DT-100,E-ELC-501,lampu redup setelah hujan,Terminal baterai korosi,Cek output alternator; Bersihkan terminal,12.3,34194
+WO-26248,EX-2958,EX-2000,,track lepas saat travel di tanjakan ramp,Idler/roller aus,Cek seal adjuster; Ukur sag track (30–50 mm); Tambah grease adjuster,28.5,2378
+WO-26249,EX-1888,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Pompa pilot aus,Ganti filter pilot; Setel relief pilot,23.1,22098
+WO-26250,EX-2436,EX-2000,,track kendur saat shift malam,Tekanan grease track adjuster turun,Tambah grease adjuster; Ukur sag track (30–50 mm); Cek seal adjuster,4.3,13216
+WO-26251,EX-1705,EX-2000,X-UND-410,track lepas saat travel di tanjakan ramp,Idler/roller aus,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),7.2,17711
+WO-26252,DT-2121,DT-100,,unit susah starter saat shift malam,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V)",20.7,12669
+WO-26253,DT-1551,DT-100,E-ENG-101,coolant cepat habis,Radiator tersumbat debu/lumpur,Cek fan belt; Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,0.5,23658
+WO-26254,DT-2955,DT-100,E-ENG-115,lampu tekanan oli menyala,Sensor tekanan rusak,Verifikasi dengan manometer mekanik; Matikan mesin segera,23.5,2429
+WO-26255,EX-2007,EX-2000,X-HYD-110,alarm hydraulic temperature saat shift malam,Oil cooler tersumbat,Kurangi beban kerja,7.6,41779
+WO-26256,DT-1356,DT-100,E-ELC-501,lampu redup,Belt alternator slip,Bersihkan terminal,8.4,1579
+WO-26257,DT-1153,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Pompa oli aus,Cek level oli,10.5,8467
+WO-26258,BD-1895,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah hujan,Radiator tersumbat material,Cek coolant; Aktifkan fan reverse,25.8,24398
+WO-26259,DT-2112,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan saat shift malam,Radiator tersumbat debu/lumpur,Bersihkan radiator; Cek level coolant setelah suhu < 50 °C; Cek fan belt,16.3,29092
+WO-26260,DT-1051,DT-100,E-SUS-401,guncangan berlebih,Kebocoran gas nitrogen suspensi,Ukur ride height; Ganti seal bila bocor; Isi ulang nitrogen,28.6,18172
+WO-26261,EX-2594,EX-2000,X-SWG-210,swing lambat,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek oli swing & magnetic plug,32.4,20055
+WO-26262,DT-2925,DT-100,E-BRK-301,rem terasa dalam di tanjakan ramp,Pompa rem aus,Tes rem statis,14.3,24924
+WO-26263,BD-2029,BD-375,D-UND-301,bunyi ketukan dari track saat shift malam,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe,6.9,4149
+WO-26264,EX-1410,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Pompa pilot aus,Ukur tekanan pilot di test port,16.2,6871
+WO-26265,BD-1169,BD-375,D-UND-301,bunyi ketukan dari track saat shift malam,Torque baut tidak sesuai,Inspeksi retakan shoe,10.7,15565
+WO-26266,BD-1898,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat saat shift malam,Oil cooler tersumbat,Hindari stall > 10 detik; Kurangi beban dozing,15.7,23170
+WO-26267,DT-2202,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Filter suction tersumbat,Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik); Cek level oli hidrolik,13.6,15971
+WO-26268,EX-1709,EX-2000,X-ELC-510,kode CAN muncul hilang di tanjakan ramp,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,15.9,47474
+WO-26269,EX-2382,EX-2000,X-HYD-120,semua gerakan lambat setelah PM 250,Filter pilot tersumbat,Ganti filter pilot; Setel relief pilot; Ukur tekanan pilot di test port,11.6,18758
+WO-26270,DT-1066,DT-100,E-ELC-501,unit susah starter setelah hujan,Alternator rusak,Cek output alternator; Bersihkan terminal,1.7,15642
+WO-26271,BD-2682,BD-375,D-UND-301,baut shoe longgar di tanjakan ramp,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,10.9,31058
+WO-26272,EX-2537,EX-2000,,semua gerakan lambat di tanjakan ramp,Pompa pilot aus,Ukur tekanan pilot di test port,27.2,43918
+WO-26273,EX-1958,EX-2000,X-UND-410,track kendur di tanjakan ramp,Seal adjuster bocor,Tambah grease adjuster; Cek seal adjuster,33.3,5600
+WO-26274,EX-1138,EX-2000,X-UND-410,rantai track melorot setelah hujan,Idler/roller aus,Cek seal adjuster; Ukur sag track (30–50 mm),5.8,32354
+WO-26275,DT-1168,DT-100,E-ELC-501,lampu redup setelah hujan,Alternator rusak,Cek output alternator,23.6,38037
+WO-26276,EX-1137,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat di tanjakan ramp,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,1.8,47461
+WO-26277,EX-2624,EX-2000,X-HYD-110,oli hidrolik panas,Fan cooler tidak optimal,Ukur putaran fan; Cek level oli,16.1,15027
+WO-26278,DT-2723,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan saat shift malam,Thermostat macet,Idle-kan mesin 5 menit sebelum dimatikan; Cek level coolant setelah suhu < 50 °C,30.9,38859
+WO-26279,EX-3058,EX-2000,X-HYD-120,joystick tidak responsif saat shift malam,Filter pilot tersumbat,Ganti filter pilot; Ukur tekanan pilot di test port; Setel relief pilot,24.5,4259
+WO-26280,EX-1693,EX-2000,X-ELC-510,monitor error komunikasi setelah hujan,Harness terkelupas,Periksa konektor boom foot,25.1,34211
+WO-26281,BD-1090,BD-375,D-UND-301,bunyi ketukan dari track setelah hujan,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe,23.1,38621
+WO-26282,DT-2075,DT-100,E-SUS-401,guncangan berlebih,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor,20.4,47085
+WO-26283,DT-1766,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi saat shift malam,Pola operasi rpm tinggi gigi rendah,Tes stall; Kurangi beban; Cek level oli transmisi,27.6,27559
+WO-26284,DT-1329,DT-100,E-ELC-501,monitor panel mati hidup setelah PM 250,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator",20.6,36360
+WO-26285,DT-2323,DT-100,E-ELC-501,unit susah starter di tanjakan ramp,Kabel ground rusak,Cek output alternator,27.8,16494
+WO-26286,BD-2075,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah hujan,Torque converter stall terlalu lama,Bersihkan cooler; Kurangi beban dozing,21.3,11537
+WO-26287,DT-2239,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan setelah hujan,Coolant kurang/bocor,Uji thermostat; Cek level coolant setelah suhu < 50 °C; Idle-kan mesin 5 menit sebelum dimatikan,23.2,46572
+WO-26288,DT-2559,DT-100,E-ENG-101,coolant cepat habis,Radiator tersumbat debu/lumpur,Bersihkan radiator; Cek fan belt,2.8,23480
+WO-26289,BD-1666,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Torque converter stall terlalu lama,Hindari stall > 10 detik,10.1,37992
+WO-26290,EX-1309,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Relief pilot valve rusak,Ganti filter pilot,19.6,28350
+WO-26291,BD-1467,BD-375,D-UND-301,bunyi ketukan dari track saat shift malam,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,23.4,39204
+WO-26292,DT-3094,DT-100,,bunyi ketukan dari mesin saat shift malam,Level oli rendah,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,0.6,30610
+WO-26293,DT-2223,DT-100,,lampu tekanan oli menyala di tanjakan ramp,Level oli rendah,Matikan mesin segera; Ambil sampel oli (fuel dilution),31.7,14542
+WO-26294,DT-1653,DT-100,E-ENG-101,mesin overheat di tanjakan ramp,Water pump rusak,Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan; Bersihkan radiator,19.3,40563
+WO-26295,BD-2337,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah PM 250,Coolant kurang,Cek coolant,1.6,2460
+WO-26296,BD-1364,BD-375,,dozer kehilangan tenaga saat dozing berat setelah hujan,Torque converter stall terlalu lama,Bersihkan cooler; Hindari stall > 10 detik; Kurangi beban dozing,19.7,28920
+WO-26297,DT-2606,DT-100,,alarm tekanan rem di tanjakan ramp,Pompa rem aus,"Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",20.3,35959
+WO-26298,DT-1233,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor,29.1,28808
+WO-26299,DT-2563,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah PM 250,Setting relief valve turun,Ukur tekanan relief hoist; Cek level oli hidrolik,7.0,17785
+WO-26300,EX-2210,EX-2000,X-ENG-310,mesin excavator overheat,Thermostat,Idle-kan mesin sebelum dimatikan,33.5,10545
+WO-26301,EX-1369,EX-2000,X-SWG-210,swing tersendat,Gear swing aus,Uji drain rate swing motor; Cek oli swing & magnetic plug; Cek swing brake release pressure,6.0,15803
+WO-26302,BD-2091,BD-375,D-PT-201,power train panas setelah PM 250,Oil cooler tersumbat,Kurangi beban dozing,14.9,47351
+WO-26303,DT-2203,DT-100,E-ENG-115,lampu tekanan oli menyala saat shift malam,Filter oli tersumbat,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution); Cek level oli,11.8,46400
+WO-26304,EX-2048,EX-2000,X-SWG-210,swing tersendat di tanjakan ramp,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek oli swing & magnetic plug,3.3,36116
+WO-26305,BD-2115,BD-375,D-PT-201,power train panas di tanjakan ramp,Oil cooler tersumbat,Bersihkan cooler; Kurangi beban dozing,32.4,37034
+WO-26306,DT-2514,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor; Isi ulang nitrogen,25.8,28142
+WO-26307,DT-2562,DT-100,E-SUS-401,guncangan berlebih,Kebocoran gas nitrogen suspensi,Ukur ride height,17.0,42155
+WO-26308,BD-2272,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah PM 250,Fan reversible tidak bekerja,Aktifkan fan reverse; Cek coolant,17.7,44884
+WO-26309,DT-2585,DT-100,E-ELC-501,monitor panel mati hidup setelah PM 250,Belt alternator slip,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",34.6,38141
+WO-26310,DT-2672,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor,32.2,25904
+WO-26311,DT-2638,DT-100,E-SUS-401,suspensi bocor oli di tanjakan ramp,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,17.0,33668
+WO-26312,BD-2012,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat,Torque converter stall terlalu lama,Hindari stall > 10 detik; Kurangi beban dozing,6.6,35492
+WO-26313,EX-1777,EX-2000,X-HYD-120,joystick tidak responsif saat shift malam,Relief pilot valve rusak,Ganti filter pilot,21.8,11342
+WO-26314,DT-2187,DT-100,E-SUS-401,unit miring ke satu sisi,Seal silinder suspensi rusak,Ukur ride height,23.7,44337
+WO-26315,BD-1930,BD-375,D-PT-201,power train panas setelah hujan,Oil cooler tersumbat,Bersihkan cooler,31.4,38163
+WO-26316,DT-3031,DT-100,E-TRM-201,transmisi panas setelah PM 250,Oil cooler tersumbat,Kurangi beban; Tes stall,32.5,36823
+WO-26317,BD-2572,BD-375,D-UND-301,bunyi ketukan dari track setelah hujan,Torque baut tidak sesuai,Inspeksi retakan shoe,26.9,44920
+WO-26318,DT-1228,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Seal silinder suspensi rusak,Isi ulang nitrogen,8.8,16412
+WO-26319,DT-2070,DT-100,E-ENG-101,mesin overheat setelah PM 250,Water pump rusak,Cek fan belt; Uji thermostat,22.5,9398
+WO-26320,DT-2493,DT-100,E-ENG-115,lampu tekanan oli menyala di tanjakan ramp,Pengenceran oli oleh bahan bakar,Cek level oli; Matikan mesin segera,33.7,30597
+WO-26321,BD-1627,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Fan reversible tidak bekerja,Cek coolant,23.6,43271
+WO-26322,EX-1494,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah hujan,Oli swing machinery kurang/terkontaminasi,Cek oli swing & magnetic plug; Uji drain rate swing motor,11.8,5954
+WO-26323,DT-1213,DT-100,E-HYD-601,vessel lambat naik saat dumping,Filter suction tersumbat,Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist; Cek level oli hidrolik,18.1,43297
+WO-26324,DT-1353,DT-100,E-ELC-501,unit susah starter di tanjakan ramp,Alternator rusak,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",27.5,12953
+WO-26325,DT-2984,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Filter oli tersumbat,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik; Matikan mesin segera,16.8,13643
+WO-26326,EX-1001,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah hujan,Gear swing aus,Uji drain rate swing motor; Cek swing brake release pressure,18.0,2882
+WO-26327,BD-1022,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat,Oil cooler tersumbat,Kurangi beban dozing,17.2,22260
+WO-26328,DT-1368,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan setelah hujan,Level oli transmisi kurang,Kurangi beban; Bersihkan cooler,9.0,44284
+WO-26329,DT-1789,DT-100,E-ELC-501,lampu redup di tanjakan ramp,Terminal baterai korosi,Bersihkan terminal,1.8,6008
+WO-26330,EX-1324,EX-2000,X-UND-410,track lepas saat travel setelah PM 250,Idler/roller aus,Tambah grease adjuster,29.2,22234
+WO-26331,BD-1480,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat saat shift malam,Oil cooler tersumbat,Bersihkan cooler; Hindari stall > 10 detik,2.2,33436
+WO-26332,BD-2007,BD-375,D-UND-301,track shoe lepas setelah PM 250,Torque baut tidak sesuai,Inspeksi retakan shoe,28.9,21613
+WO-26333,EX-2019,EX-2000,X-ENG-310,suhu engine tinggi,Fan belt,Cek coolant,28.5,36978
+WO-26334,DT-2568,DT-100,E-SUS-401,unit miring ke satu sisi saat shift malam,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor,6.2,3815
+WO-26335,EX-2822,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi,Relief valve bocor internal,Thermo-gun pada relief valve; Ukur putaran fan; Bersihkan oil cooler,0.9,26873
+WO-26336,EX-2792,EX-2000,X-ENG-310,suhu engine tinggi setelah hujan,Coolant kurang,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,7.8,14551
+WO-26337,EX-2919,EX-2000,X-HYD-110,oli hidrolik panas saat shift malam,Relief valve bocor internal,Ukur putaran fan; Cek level oli; Kurangi beban kerja,30.7,34173
+WO-26338,DT-2979,DT-100,E-ENG-115,bunyi ketukan dari mesin setelah PM 250,Pompa oli aus,Matikan mesin segera; Ambil sampel oli (fuel dilution),2.0,12222
+WO-26339,DT-1377,DT-100,E-ENG-115,lampu tekanan oli menyala,Level oli rendah,Matikan mesin segera; Ambil sampel oli (fuel dilution); Cek level oli,30.9,10719
+WO-26340,EX-2130,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah PM 250,Harness terkelupas,Ukur resistansi CAN (± 60 ohm),20.4,23672
+WO-26341,DT-1457,DT-100,E-ELC-501,monitor panel mati hidup,Kabel ground rusak,"Ukur tegangan pengisian (27–28,5 V)",14.8,20550
+WO-26342,BD-2927,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat saat shift malam,Torque converter stall terlalu lama,Kurangi beban dozing,17.4,19067
+WO-26343,EX-1564,EX-2000,X-UND-410,rantai track melorot,Idler/roller aus,Tambah grease adjuster; Cek seal adjuster,32.3,6438
+WO-26344,BD-2116,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat saat shift malam,Torque converter stall terlalu lama,Hindari stall > 10 detik; Kurangi beban dozing,28.6,26594
+WO-26345,BD-2540,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah PM 250,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,13.4,2091
+WO-26346,DT-1068,DT-100,,suspensi bocor oli setelah hujan,Seal silinder suspensi rusak,Ganti seal bila bocor,17.8,37606
+WO-26347,BD-2355,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat,Torque converter stall terlalu lama,Hindari stall > 10 detik,2.3,16699
+WO-26348,DT-1181,DT-100,,lampu tekanan oli menyala setelah hujan,Pompa oli aus,Cek level oli; Verifikasi dengan manometer mekanik,19.3,43213
+WO-26349,DT-1495,DT-100,,unit kehilangan tenaga di tanjakan setelah PM 250,Pola operasi rpm tinggi gigi rendah,Kurangi beban; Bersihkan cooler,8.2,4070
+WO-26350,DT-1587,DT-100,E-BRK-301,pengereman tidak pakem saat turunan,Kebocoran selang rem,Cek kebocoran,1.3,18389
+WO-26351,EX-2502,EX-2000,X-ENG-310,suhu engine tinggi setelah PM 250,Coolant kurang,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,4.5,43750
+WO-26352,DT-2763,DT-100,,monitor panel mati hidup setelah PM 250,Kabel ground rusak,"Ukur tegangan pengisian (27–28,5 V)",31.1,31573
+WO-26353,EX-1562,EX-2000,,track lepas saat travel setelah hujan,Seal adjuster bocor,Cek seal adjuster; Tambah grease adjuster,10.6,37692
+WO-26354,EX-1067,EX-2000,X-SWG-210,swing lambat setelah PM 250,Swing brake tidak release,Cek oli swing & magnetic plug; Cek swing brake release pressure,4.8,37115
+WO-26355,EX-2353,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah hujan,Harness terkelupas,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),14.9,12201
+WO-26356,EX-1215,EX-2000,X-UND-410,rantai track melorot di tanjakan ramp,Tekanan grease track adjuster turun,Tambah grease adjuster,15.0,1991
+WO-26357,EX-2733,EX-2000,,oli hidrolik panas setelah hujan,Fan cooler tidak optimal,Ukur putaran fan,0.9,30619
+WO-26358,DT-1258,DT-100,E-SUS-401,unit miring ke satu sisi setelah hujan,Seal silinder suspensi rusak,Ukur ride height; Ganti seal bila bocor,13.5,5853
+WO-26359,EX-2734,EX-2000,X-UND-410,track kendur,Tekanan grease track adjuster turun,Ukur sag track (30–50 mm); Cek seal adjuster; Tambah grease adjuster,3.8,28937
+WO-26360,DT-1735,DT-100,E-ENG-115,tekanan oli drop saat idle saat shift malam,Pengenceran oli oleh bahan bakar,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution); Matikan mesin segera,3.2,17275
+WO-26361,EX-2083,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Fan belt,Cek coolant; Bersihkan radiator,13.5,7561
+WO-26362,EX-1328,EX-2000,X-ENG-310,mesin excavator overheat setelah PM 250,Thermostat,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,33.6,42961
+WO-26363,EX-2760,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Harness terkelupas,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),31.9,37489
+WO-26364,EX-2885,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi setelah PM 250,Level oli hidrolik rendah,Thermo-gun pada relief valve; Ukur putaran fan,34.4,25727
+WO-26365,BD-1364,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat di tanjakan ramp,Torque converter stall terlalu lama,Kurangi beban dozing,9.2,1591
+WO-26366,DT-2475,DT-100,E-BRK-301,rem terasa dalam setelah PM 250,Pompa rem aus,Cek kebocoran,9.1,13629
+WO-26367,DT-2659,DT-100,E-SUS-401,unit miring ke satu sisi saat shift malam,Seal silinder suspensi rusak,Ganti seal bila bocor,1.9,37944
+WO-26368,DT-2541,DT-100,E-SUS-401,guncangan berlebih di tanjakan ramp,Seal silinder suspensi rusak,Ukur ride height,21.6,13444
+WO-26369,EX-1917,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Filter pilot tersumbat,Ukur tekanan pilot di test port; Ganti filter pilot,31.3,43910
+WO-26370,DT-1089,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Kebocoran gas nitrogen suspensi,Ukur ride height,9.4,1208
+WO-26371,DT-2202,DT-100,,unit kehilangan tenaga di tanjakan setelah hujan,Pola operasi rpm tinggi gigi rendah,Cek level oli transmisi; Kurangi beban; Bersihkan cooler,34.6,33616
+WO-26372,DT-1345,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi setelah hujan,Oil cooler tersumbat,Kurangi beban; Bersihkan cooler; Cek level oli transmisi,10.0,23619
+WO-26373,DT-1285,DT-100,E-SUS-401,guncangan berlebih di tanjakan ramp,Seal silinder suspensi rusak,Isi ulang nitrogen,34.6,9347
+WO-26374,DT-1755,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan saat shift malam,Radiator tersumbat debu/lumpur,Cek fan belt; Bersihkan radiator; Idle-kan mesin 5 menit sebelum dimatikan,15.9,42187
+WO-26375,DT-1835,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor,15.2,34376
+WO-26376,DT-2815,DT-100,,tekanan oli drop saat idle,Pompa oli aus,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,20.3,4631
+WO-26377,EX-1695,EX-2000,X-HYD-110,alarm hydraulic temperature setelah hujan,Fan cooler tidak optimal,Bersihkan oil cooler,28.8,10065
+WO-26378,EX-1542,EX-2000,X-SWG-210,swing tersendat,Oli swing machinery kurang/terkontaminasi,Cek oli swing & magnetic plug; Uji drain rate swing motor; Cek swing brake release pressure,10.1,45462
+WO-26379,BD-1565,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Fan reversible tidak bekerja,Aktifkan fan reverse; Cek coolant,33.4,29360
+WO-26380,DT-1782,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V)",24.0,24585
+WO-26381,EX-2095,EX-2000,X-ELC-510,kode CAN muncul hilang di tanjakan ramp,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,17.7,39617
+WO-26382,DT-3073,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Level oli hidrolik rendah,Cek level oli hidrolik; Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik),21.4,41846
+WO-26383,EX-2708,EX-2000,X-ENG-310,mesin excavator overheat saat shift malam,Fan belt,Bersihkan radiator,16.0,15387
+WO-26384,DT-1414,DT-100,E-SUS-401,unit miring ke satu sisi saat shift malam,Kebocoran gas nitrogen suspensi,Ukur ride height; Isi ulang nitrogen; Ganti seal bila bocor,20.0,47330
+WO-26385,DT-2031,DT-100,,perpindahan gigi kasar dan suhu transmisi tinggi saat shift malam,Level oli transmisi kurang,Bersihkan cooler; Tes stall,25.3,13157
+WO-26386,BD-2246,BD-375,D-PT-201,power train panas setelah PM 250,Oil cooler tersumbat,Bersihkan cooler; Kurangi beban dozing; Hindari stall > 10 detik,11.2,42944
+WO-26387,DT-3014,DT-100,,monitor panel mati hidup setelah PM 250,Terminal baterai korosi,Cek output alternator; Bersihkan terminal,18.7,34045
+WO-26388,DT-2979,DT-100,,suspensi bocor oli setelah PM 250,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,23.8,20213
+WO-26389,DT-2047,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan saat shift malam,Pola operasi rpm tinggi gigi rendah,Kurangi beban; Cek level oli transmisi; Tes stall,13.6,21250
+WO-26390,BD-2104,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat di tanjakan ramp,Oil cooler tersumbat,Kurangi beban dozing; Hindari stall > 10 detik,28.8,13835
+WO-26391,EX-1208,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi,Oil cooler tersumbat,Ukur putaran fan; Cek level oli; Kurangi beban kerja,2.6,10421
+WO-26392,BD-2715,BD-375,D-ENG-101,dozer overheat,Radiator tersumbat material,Cek coolant; Aktifkan fan reverse,32.5,30666
+WO-26393,BD-2469,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah hujan,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,13.0,12481
+WO-26394,EX-2583,EX-2000,X-HYD-120,semua gerakan lambat,Pompa pilot aus,Ukur tekanan pilot di test port; Ganti filter pilot,12.5,28392
+WO-26395,DT-2446,DT-100,E-SUS-401,guncangan berlebih di tanjakan ramp,Seal silinder suspensi rusak,Ukur ride height; Isi ulang nitrogen; Ganti seal bila bocor,4.3,12676
+WO-26396,EX-1589,EX-2000,X-HYD-120,joystick tidak responsif,Pompa pilot aus,Ganti filter pilot; Ukur tekanan pilot di test port,30.1,14411
+WO-26397,BD-1172,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Coolant kurang,Aktifkan fan reverse; Cek coolant,16.6,17266
+WO-26398,BD-1870,BD-375,D-ENG-101,suhu mesin dozer tinggi saat shift malam,Radiator tersumbat material,Cek coolant,15.1,12561
+WO-26399,DT-2139,DT-100,E-ENG-115,lampu tekanan oli menyala setelah PM 250,Pengenceran oli oleh bahan bakar,Matikan mesin segera; Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,8.0,44976
+WO-26400,DT-2995,DT-100,,coolant cepat habis setelah PM 250,Water pump rusak,Idle-kan mesin 5 menit sebelum dimatikan; Cek fan belt,10.2,11217
+WO-26401,EX-2108,EX-2000,X-HYD-120,joystick tidak responsif setelah PM 250,Filter pilot tersumbat,Ukur tekanan pilot di test port,11.1,3968
+WO-26402,BD-1059,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Torque converter stall terlalu lama,Hindari stall > 10 detik; Bersihkan cooler,18.2,43087
+WO-26403,EX-1185,EX-2000,,alarm hydraulic temperature setelah PM 250,Relief valve bocor internal,Kurangi beban kerja; Bersihkan oil cooler; Ukur putaran fan,35.4,1271
+WO-26404,DT-2450,DT-100,E-ELC-501,unit susah starter,Terminal baterai korosi,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator",21.8,10369
+WO-26405,EX-1168,EX-2000,X-ENG-310,suhu engine tinggi saat shift malam,Fan belt,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,20.5,30037
+WO-26406,BD-2497,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah hujan,Oil cooler tersumbat,Bersihkan cooler; Hindari stall > 10 detik,4.5,21435
+WO-26407,DT-3052,DT-100,E-TRM-201,transmisi panas,Pola operasi rpm tinggi gigi rendah,Bersihkan cooler; Tes stall; Kurangi beban,26.2,40939
+WO-26408,EX-2003,EX-2000,X-ENG-310,suhu engine tinggi saat shift malam,Thermostat,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,8.3,29338
+WO-26409,DT-2882,DT-100,E-ENG-101,indikator temperatur merah saat shift malam,Fan belt slip/putus,Uji thermostat; Cek fan belt; Bersihkan radiator,17.6,35039
+WO-26410,DT-1745,DT-100,E-HYD-601,hoist tidak kuat angkat penuh di tanjakan ramp,Level oli hidrolik rendah,Cek level oli hidrolik; Cek waktu angkat (± 20 detik),8.1,43289
+WO-26411,DT-3051,DT-100,,perpindahan gigi kasar dan suhu transmisi tinggi setelah PM 250,Kopling slip,Kurangi beban,28.2,26200
+WO-26412,EX-1965,EX-2000,,track lepas saat travel saat shift malam,Seal adjuster bocor,Tambah grease adjuster; Cek seal adjuster; Ukur sag track (30–50 mm),26.2,15622
+WO-26413,BD-2932,BD-375,D-UND-301,track shoe lepas saat shift malam,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,20.8,3553
+WO-26414,BD-2830,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,25.5,5826
+WO-26415,BD-1318,BD-375,D-PT-201,power train panas setelah PM 250,Oil cooler tersumbat,Hindari stall > 10 detik; Bersihkan cooler,31.7,36893
+WO-26416,DT-1266,DT-100,E-ENG-115,tekanan oli drop saat idle setelah PM 250,Pompa oli aus,Cek level oli; Verifikasi dengan manometer mekanik; Matikan mesin segera,21.9,37757
+WO-26417,EX-1861,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Swing brake tidak release,Cek swing brake release pressure; Uji drain rate swing motor; Cek oli swing & magnetic plug,20.0,30251
+WO-26418,BD-2633,BD-375,,dozer overheat di tanjakan ramp,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,8.9,27358
+WO-26419,DT-1362,DT-100,E-BRK-301,pengereman tidak pakem saat turunan setelah hujan,Kebocoran selang rem,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE",29.2,7738
+WO-26420,DT-1029,DT-100,E-SUS-401,suspensi bocor oli di tanjakan ramp,Seal silinder suspensi rusak,Ukur ride height; Ganti seal bila bocor; Isi ulang nitrogen,14.3,40258
+WO-26421,DT-1899,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Level oli rendah,Verifikasi dengan manometer mekanik,5.7,37561
+WO-26422,DT-2789,DT-100,E-SUS-401,guncangan berlebih setelah PM 250,Seal silinder suspensi rusak,Ganti seal bila bocor; Ukur ride height; Isi ulang nitrogen,22.1,30961
+WO-26423,DT-2886,DT-100,E-ENG-115,tekanan oli drop saat idle setelah hujan,Filter oli tersumbat,Ambil sampel oli (fuel dilution); Matikan mesin segera; Cek level oli,15.2,35184
+WO-26424,EX-2812,EX-2000,X-HYD-110,oli hidrolik panas di tanjakan ramp,Level oli hidrolik rendah,Bersihkan oil cooler; Ukur putaran fan,4.1,12394
+WO-26425,DT-2803,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Level oli hidrolik rendah,Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik),1.7,9521
+WO-26426,DT-2079,DT-100,,unit kehilangan tenaga di tanjakan setelah hujan,Pola operasi rpm tinggi gigi rendah,Cek level oli transmisi; Bersihkan cooler; Tes stall,13.6,34564
+WO-26427,DT-2980,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Level oli hidrolik rendah,Ukur tekanan relief hoist,23.6,47177
+WO-26428,DT-2641,DT-100,E-BRK-301,rem terasa dalam saat shift malam,Kebocoran selang rem,Ukur tekanan nitrogen accumulator,16.3,22453
+WO-26429,EX-2845,EX-2000,X-ELC-510,kode CAN muncul hilang di tanjakan ramp,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,19.6,10514
+WO-26430,EX-2079,EX-2000,X-HYD-110,alarm hydraulic temperature setelah hujan,Relief valve bocor internal,Bersihkan oil cooler; Thermo-gun pada relief valve; Cek level oli,17.3,20431
+WO-26431,DT-2770,DT-100,E-ENG-101,mesin overheat,Coolant kurang/bocor,Cek fan belt; Bersihkan radiator,5.3,22125
+WO-26432,BD-3041,BD-375,D-UND-301,baut shoe longgar setelah PM 250,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,25.6,11696
+WO-26433,DT-1854,DT-100,E-SUS-401,suspensi bocor oli di tanjakan ramp,Seal silinder suspensi rusak,Ukur ride height,5.4,7014
+WO-26434,EX-1718,EX-2000,X-ENG-310,mesin excavator overheat saat shift malam,Fan belt,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,13.8,25634
+WO-26435,DT-2594,DT-100,,unit kehilangan tenaga di tanjakan di tanjakan ramp,Kopling slip,Bersihkan cooler; Tes stall; Kurangi beban,17.1,14785
+WO-26436,EX-1502,EX-2000,X-SWG-210,bunyi gemeretak saat swing saat shift malam,Swing brake tidak release,Uji drain rate swing motor; Cek swing brake release pressure,22.9,24579
+WO-26437,EX-2811,EX-2000,,bunyi gemeretak saat swing,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek swing brake release pressure; Cek oli swing & magnetic plug,1.0,11788
+WO-26438,DT-1295,DT-100,E-ELC-501,monitor panel mati hidup setelah PM 250,Alternator rusak,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",34.0,7680
+WO-26439,EX-2046,EX-2000,X-HYD-110,alarm hydraulic temperature,Relief valve bocor internal,Ukur putaran fan; Thermo-gun pada relief valve,7.7,33106
+WO-26440,BD-1514,BD-375,D-PT-201,power train panas setelah PM 250,Oil cooler tersumbat,Bersihkan cooler,10.7,42941
+WO-26441,EX-1122,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi setelah hujan,Level oli hidrolik rendah,Cek level oli,23.4,26396
+WO-26442,DT-1505,DT-100,E-ELC-501,lampu redup di tanjakan ramp,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",13.9,28429
+WO-26443,BD-2615,BD-375,D-ENG-101,dozer overheat setelah hujan,Fan reversible tidak bekerja,Aktifkan fan reverse,10.4,3301
+WO-26444,DT-2101,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor,19.8,5942
+WO-26445,DT-2467,DT-100,E-HYD-601,hoist tidak kuat angkat penuh di tanjakan ramp,Filter suction tersumbat,Cek waktu angkat (± 20 detik); Cek level oli hidrolik,1.1,32287
+WO-26446,BD-1493,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat di tanjakan ramp,Torque converter stall terlalu lama,Kurangi beban dozing; Hindari stall > 10 detik,1.5,11961
+WO-26447,DT-2477,DT-100,E-HYD-601,hoist tidak kuat angkat penuh di tanjakan ramp,Pompa hoist aus,Cek level oli hidrolik; Ukur tekanan relief hoist,11.4,25900
+WO-26448,DT-1894,DT-100,,lampu tekanan oli menyala di tanjakan ramp,Level oli rendah,Verifikasi dengan manometer mekanik; Matikan mesin segera; Cek level oli,21.3,24576
+WO-26449,EX-1749,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),16.1,18416
+WO-26450,DT-1011,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan setelah hujan,Kopling slip,Kurangi beban; Tes stall; Bersihkan cooler,26.9,23123
+WO-26451,EX-2636,EX-2000,X-ENG-310,suhu engine tinggi setelah hujan,Radiator tersumbat,Cek coolant; Idle-kan mesin sebelum dimatikan; Bersihkan radiator,6.9,36323
+WO-26452,EX-2036,EX-2000,X-HYD-110,oli hidrolik panas,Oil cooler tersumbat,Ukur putaran fan; Cek level oli,10.3,46797
+WO-26453,DT-1381,DT-100,,transmisi panas setelah hujan,Kopling slip,Tes stall; Cek level oli transmisi; Kurangi beban,25.2,39758
+WO-26454,BD-2186,BD-375,,power train panas,Oil cooler tersumbat,Hindari stall > 10 detik; Kurangi beban dozing; Bersihkan cooler,11.9,17181
+WO-26455,BD-2532,BD-375,D-PT-201,power train panas,Oil cooler tersumbat,Hindari stall > 10 detik; Bersihkan cooler; Kurangi beban dozing,2.6,46859
+WO-26456,BD-1346,BD-375,D-UND-301,track shoe lepas setelah PM 250,Torque baut tidak sesuai,Inspeksi retakan shoe,33.8,17595
+WO-26457,EX-1061,EX-2000,X-HYD-110,oli hidrolik panas,Fan cooler tidak optimal,Thermo-gun pada relief valve; Ukur putaran fan,20.0,37165
+WO-26458,BD-2312,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Torque converter stall terlalu lama,Bersihkan cooler,5.1,30962
+WO-26459,DT-2002,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Pompa oli aus,Matikan mesin segera; Verifikasi dengan manometer mekanik; Cek level oli,26.1,25598
+WO-26460,EX-1217,EX-2000,X-HYD-120,joystick tidak responsif,Filter pilot tersumbat,Setel relief pilot; Ganti filter pilot; Ukur tekanan pilot di test port,2.4,34112
+WO-26461,BD-1689,BD-375,D-ENG-101,suhu mesin dozer tinggi saat shift malam,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,3.9,20157
+WO-26462,DT-2291,DT-100,,unit miring ke satu sisi,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor,11.9,39789
+WO-26463,DT-1843,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,18.9,9636
+WO-26464,DT-1535,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Kebocoran gas nitrogen suspensi,Ukur ride height; Ganti seal bila bocor,6.8,25608
+WO-26465,EX-1190,EX-2000,X-ELC-510,kode CAN muncul hilang setelah PM 250,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,4.5,14814
+WO-26466,EX-1789,EX-2000,X-HYD-120,boom tidak mau naik,Relief pilot valve rusak,Ganti filter pilot; Setel relief pilot,6.7,13097
+WO-26467,EX-2042,EX-2000,X-ELC-510,monitor error komunikasi setelah PM 250,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm),31.0,45716
+WO-26468,EX-3051,EX-2000,X-SWG-210,bunyi gemeretak saat swing saat shift malam,Swing brake tidak release,Cek oli swing & magnetic plug,27.9,20726
+WO-26469,BD-3098,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Oil cooler tersumbat,Kurangi beban dozing,7.4,12594
+WO-26470,DT-1994,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Sensor tekanan rusak,Cek level oli; Verifikasi dengan manometer mekanik,20.8,42944
+WO-26471,EX-2371,EX-2000,X-UND-410,track lepas saat travel,Tekanan grease track adjuster turun,Tambah grease adjuster; Ukur sag track (30–50 mm); Cek seal adjuster,35.9,27695
+WO-26472,EX-2515,EX-2000,X-UND-410,track lepas saat travel saat shift malam,Seal adjuster bocor,Ukur sag track (30–50 mm); Tambah grease adjuster; Cek seal adjuster,31.5,34682
+WO-26473,DT-2937,DT-100,E-ENG-115,lampu tekanan oli menyala setelah hujan,Sensor tekanan rusak,Verifikasi dengan manometer mekanik; Cek level oli,13.6,17532
+WO-26474,EX-2110,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat di tanjakan ramp,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),14.5,22026
+WO-26475,EX-1522,EX-2000,X-HYD-110,alarm hydraulic temperature di tanjakan ramp,Relief valve bocor internal,Thermo-gun pada relief valve,31.8,38987
+WO-26476,EX-3023,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Coolant kurang,Bersihkan radiator,5.9,7967
+WO-26477,EX-1805,EX-2000,X-ENG-310,suhu engine tinggi di tanjakan ramp,Thermostat,Idle-kan mesin sebelum dimatikan,19.9,15919
+WO-26478,EX-2346,EX-2000,X-ENG-310,suhu engine tinggi di tanjakan ramp,Fan belt,Cek coolant,15.7,45027
+WO-26479,DT-2927,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan setelah hujan,Thermostat macet,Cek fan belt,8.9,41073
+WO-26480,DT-1342,DT-100,,transmisi panas setelah PM 250,Pola operasi rpm tinggi gigi rendah,Bersihkan cooler,32.3,34968
+WO-26481,DT-3037,DT-100,E-HYD-601,vessel lambat naik saat dumping,Filter suction tersumbat,Cek level oli hidrolik,17.3,26073
+WO-26482,DT-2736,DT-100,E-ENG-115,tekanan oli drop saat idle setelah PM 250,Pompa oli aus,Cek level oli; Matikan mesin segera; Ambil sampel oli (fuel dilution),34.5,47834
+WO-26483,DT-1852,DT-100,,indikator temperatur merah setelah PM 250,Water pump rusak,Cek fan belt,35.3,19908
+WO-26484,EX-2325,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),30.3,39089
+WO-26485,DT-1446,DT-100,E-ELC-501,unit susah starter saat shift malam,Kabel ground rusak,"Bersihkan terminal; Cek output alternator; Ukur tegangan pengisian (27–28,5 V)",27.1,39543
+WO-26486,EX-3072,EX-2000,X-SWG-210,swing tersendat setelah hujan,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor,3.3,44962
+WO-26487,DT-2885,DT-100,,pengereman tidak pakem saat turunan setelah hujan,Kebocoran selang rem,Tes rem statis; Ukur tekanan nitrogen accumulator; Cek kebocoran,15.1,45255
+WO-26488,DT-1455,DT-100,,indikator temperatur merah saat shift malam,Thermostat macet,Uji thermostat; Cek level coolant setelah suhu < 50 °C; Idle-kan mesin 5 menit sebelum dimatikan,34.4,8240
+WO-26489,DT-2115,DT-100,E-ELC-501,monitor panel mati hidup saat shift malam,Terminal baterai korosi,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator; Bersihkan terminal",1.7,6528
+WO-26490,DT-2951,DT-100,E-HYD-601,hoist tidak kuat angkat penuh saat shift malam,Pompa hoist aus,Ukur tekanan relief hoist,15.4,32790
+WO-26491,DT-1255,DT-100,E-HYD-601,hoist tidak kuat angkat penuh,Setting relief valve turun,Cek level oli hidrolik; Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik),31.2,33550
+WO-26492,DT-2641,DT-100,,vessel lambat naik saat dumping,Level oli hidrolik rendah,Ukur tekanan relief hoist,10.5,44090
+WO-26493,DT-1159,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan saat shift malam,Level oli transmisi kurang,Bersihkan cooler,20.4,28543
+WO-26494,BD-2196,BD-375,,dozer overheat saat shift malam,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,34.4,14344
+WO-26495,EX-1859,EX-2000,X-HYD-120,semua gerakan lambat,Relief pilot valve rusak,Ukur tekanan pilot di test port; Setel relief pilot; Ganti filter pilot,3.2,5222
+WO-26496,BD-1241,BD-375,,bunyi ketukan dari track di tanjakan ramp,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,28.4,7680
+WO-26497,DT-2268,DT-100,E-TRM-201,transmisi panas,Pola operasi rpm tinggi gigi rendah,Cek level oli transmisi,29.5,10070
+WO-26498,EX-1489,EX-2000,,bunyi gemeretak saat swing,Swing motor bocor internal,Cek oli swing & magnetic plug; Cek swing brake release pressure; Uji drain rate swing motor,19.4,42618
+WO-26499,EX-1873,EX-2000,X-SWG-210,swing tersendat,Swing brake tidak release,Uji drain rate swing motor,17.4,34628
+WO-26500,EX-1294,EX-2000,X-UND-410,track kendur setelah PM 250,Seal adjuster bocor,Tambah grease adjuster; Cek seal adjuster,28.5,6422
+WO-26501,DT-2173,DT-100,E-ENG-115,tekanan oli drop saat idle,Pompa oli aus,Matikan mesin segera; Ambil sampel oli (fuel dilution),23.3,8996
+WO-26502,EX-1338,EX-2000,X-UND-410,rantai track melorot saat shift malam,Seal adjuster bocor,Ukur sag track (30–50 mm),8.2,4568
+WO-26503,BD-2666,BD-375,D-ENG-101,suhu mesin dozer tinggi,Coolant kurang,Cek coolant; Aktifkan fan reverse,29.4,23294
+WO-26504,DT-1308,DT-100,,lampu redup setelah hujan,Terminal baterai korosi,Cek output alternator,23.0,19746
+WO-26505,BD-2471,BD-375,D-UND-301,bunyi ketukan dari track setelah PM 250,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,22.0,34406
+WO-26506,EX-2396,EX-2000,X-HYD-110,oli hidrolik panas setelah PM 250,Oil cooler tersumbat,Bersihkan oil cooler,12.8,44677
+WO-26507,EX-2837,EX-2000,X-ELC-510,monitor error komunikasi saat shift malam,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),3.6,11427
+WO-26508,EX-1107,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah hujan,Harness terkelupas,Periksa konektor boom foot,31.5,32422
+WO-26509,DT-1912,DT-100,,indikator temperatur merah,Radiator tersumbat debu/lumpur,Bersihkan radiator,29.6,34573
+WO-26510,BD-1015,BD-375,D-ENG-101,dozer overheat,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,35.3,28191
+WO-26511,BD-1556,BD-375,D-ENG-101,dozer overheat di tanjakan ramp,Coolant kurang,Aktifkan fan reverse; Cek coolant,0.8,27915
+WO-26512,DT-1574,DT-100,E-ELC-501,lampu redup saat shift malam,Belt alternator slip,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",20.1,13060
+WO-26513,DT-1638,DT-100,E-ELC-501,lampu redup setelah hujan,Belt alternator slip,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",13.2,40914
+WO-26514,EX-2098,EX-2000,X-SWG-210,swing lambat,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor,29.0,16153
+WO-26515,EX-2288,EX-2000,X-UND-410,rantai track melorot,Tekanan grease track adjuster turun,Ukur sag track (30–50 mm); Cek seal adjuster; Tambah grease adjuster,34.8,30232
+WO-26516,DT-1482,DT-100,E-SUS-401,guncangan berlebih setelah hujan,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor; Ukur ride height; Isi ulang nitrogen,33.7,24752
+WO-26517,BD-1071,BD-375,D-UND-301,track shoe lepas saat shift malam,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,1.3,20867
+WO-26518,DT-2364,DT-100,E-BRK-301,alarm tekanan rem,Pompa rem aus,"Ukur tekanan nitrogen accumulator; Unit dilarang beroperasi, pasang tag DO NOT OPERATE",5.0,34658
+WO-26519,DT-2861,DT-100,E-BRK-301,pengereman tidak pakem saat turunan di tanjakan ramp,Pompa rem aus,Ukur tekanan nitrogen accumulator; Cek kebocoran,31.9,9647
+WO-26520,DT-1910,DT-100,E-ENG-115,lampu tekanan oli menyala di tanjakan ramp,Filter oli tersumbat,Cek level oli,18.2,37850
+WO-26521,DT-1909,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan,Coolant kurang/bocor,Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,22.5,30339
+WO-26522,EX-2324,EX-2000,X-HYD-120,joystick tidak responsif setelah PM 250,Filter pilot tersumbat,Ukur tekanan pilot di test port; Ganti filter pilot; Setel relief pilot,33.0,25584
+WO-26523,EX-2761,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek oli swing & magnetic plug; Cek swing brake release pressure,2.2,20732
+WO-26524,EX-1199,EX-2000,X-UND-410,track lepas saat travel,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),15.4,16967
+WO-26525,EX-2635,EX-2000,X-HYD-110,oli hidrolik panas,Fan cooler tidak optimal,Bersihkan oil cooler; Ukur putaran fan,16.3,7310
+WO-26526,EX-1240,EX-2000,,alarm hydraulic temperature setelah PM 250,Fan cooler tidak optimal,Thermo-gun pada relief valve; Kurangi beban kerja; Cek level oli,8.3,2543
+WO-26527,EX-1659,EX-2000,X-HYD-120,boom tidak mau naik setelah PM 250,Filter pilot tersumbat,Setel relief pilot; Ukur tekanan pilot di test port,30.6,20582
+WO-26528,EX-2156,EX-2000,X-HYD-120,joystick tidak responsif,Pompa pilot aus,Ukur tekanan pilot di test port; Ganti filter pilot,9.0,10429
+WO-26529,EX-1131,EX-2000,X-HYD-120,boom tidak mau naik,Filter pilot tersumbat,Ukur tekanan pilot di test port,16.6,9458
+WO-26530,EX-1443,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor; Cek swing brake release pressure; Cek oli swing & magnetic plug,12.5,31250
+WO-26531,EX-1062,EX-2000,X-SWG-210,swing tersendat di tanjakan ramp,Oli swing machinery kurang/terkontaminasi,Cek oli swing & magnetic plug; Uji drain rate swing motor,6.3,30833
+WO-26532,DT-2385,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Filter oli tersumbat,Cek level oli,10.8,13080
+WO-26533,EX-1928,EX-2000,,alarm hydraulic temperature di tanjakan ramp,Oil cooler tersumbat,Thermo-gun pada relief valve; Cek level oli,1.2,10363
+WO-26534,BD-1407,BD-375,D-ENG-101,suhu mesin dozer tinggi saat shift malam,Fan reversible tidak bekerja,Aktifkan fan reverse,34.3,40537
+WO-26535,DT-2901,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,27.8,9013
+WO-26536,EX-2567,EX-2000,X-UND-410,track kendur di tanjakan ramp,Idler/roller aus,Cek seal adjuster,17.4,1524
+WO-26537,EX-1497,EX-2000,X-ELC-510,monitor error komunikasi saat shift malam,Konektor longgar/korosi,Periksa konektor boom foot,21.3,33975
+WO-26538,DT-2713,DT-100,,lampu tekanan oli menyala,Pengenceran oli oleh bahan bakar,Ambil sampel oli (fuel dilution); Matikan mesin segera; Verifikasi dengan manometer mekanik,21.3,8162
+WO-26539,EX-3005,EX-2000,X-HYD-110,alarm hydraulic temperature saat shift malam,Level oli hidrolik rendah,Bersihkan oil cooler,3.5,5249
+WO-26540,DT-1408,DT-100,E-ENG-101,indikator temperatur merah di tanjakan ramp,Radiator tersumbat debu/lumpur,Idle-kan mesin 5 menit sebelum dimatikan; Cek level coolant setelah suhu < 50 °C; Bersihkan radiator,7.0,23515
+WO-26541,EX-2510,EX-2000,X-ELC-510,monitor error komunikasi setelah PM 250,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),21.8,1361
+WO-26542,BD-1890,BD-375,,dozer kehilangan tenaga saat dozing berat setelah hujan,Torque converter stall terlalu lama,Kurangi beban dozing,8.8,26435
+WO-26543,BD-2807,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah hujan,Oil cooler tersumbat,Kurangi beban dozing; Hindari stall > 10 detik; Bersihkan cooler,30.2,30293
+WO-26544,DT-2849,DT-100,E-ENG-101,mesin overheat,Radiator tersumbat debu/lumpur,Bersihkan radiator; Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,15.7,28772
+WO-26545,BD-2713,BD-375,,dozer overheat di tanjakan ramp,Fan reversible tidak bekerja,Cek coolant,1.4,38915
+WO-26546,DT-2667,DT-100,E-ELC-501,monitor panel mati hidup,Alternator rusak,"Cek output alternator; Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",28.8,42156
+WO-26547,DT-2601,DT-100,E-ENG-115,lampu tekanan oli menyala,Filter oli tersumbat,Cek level oli,19.9,30153
+WO-26548,DT-1555,DT-100,E-ENG-101,indikator temperatur merah saat shift malam,Thermostat macet,Cek fan belt; Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,24.8,9267
+WO-26549,EX-2166,EX-2000,X-UND-410,track kendur di tanjakan ramp,Idler/roller aus,Ukur sag track (30–50 mm),13.6,15661
+WO-26550,BD-2277,BD-375,D-UND-301,track shoe lepas setelah PM 250,Torque baut tidak sesuai,Inspeksi retakan shoe,1.9,17245
+WO-26551,BD-1300,BD-375,D-PT-201,power train panas saat shift malam,Oil cooler tersumbat,Bersihkan cooler,9.7,23782
+WO-26552,EX-2057,EX-2000,,fungsi kontrol hilang sesaat setelah PM 250,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,23.9,14418
+WO-26553,BD-1572,BD-375,,track shoe lepas setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut; Inspeksi retakan shoe,4.0,19208
+WO-26554,DT-1754,DT-100,E-ENG-101,coolant cepat habis setelah hujan,Thermostat macet,Cek level coolant setelah suhu < 50 °C; Cek fan belt,31.2,15639
+WO-26555,EX-2295,EX-2000,X-UND-410,track kendur setelah hujan,Tekanan grease track adjuster turun,Tambah grease adjuster,8.3,17512
+WO-26556,BD-2923,BD-375,D-UND-301,baut shoe longgar setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,9.7,30120
+WO-26557,EX-2180,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Swing motor bocor internal,Cek oli swing & magnetic plug,30.0,2620
+WO-26558,EX-1531,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Swing motor bocor internal,Cek oli swing & magnetic plug; Uji drain rate swing motor; Cek swing brake release pressure,15.4,26305
+WO-26559,EX-1518,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Radiator tersumbat,Cek coolant,31.6,47793
+WO-26560,BD-2806,BD-375,D-UND-301,bunyi ketukan dari track,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,8.2,46080
+WO-26561,EX-2234,EX-2000,X-HYD-120,boom tidak mau naik,Filter pilot tersumbat,Ganti filter pilot,28.3,25530
+WO-26562,DT-2891,DT-100,E-ENG-101,indikator temperatur merah di tanjakan ramp,Coolant kurang/bocor,Cek level coolant setelah suhu < 50 °C,30.9,47025
+WO-26563,DT-1477,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan setelah hujan,Fan belt slip/putus,Cek fan belt; Uji thermostat,10.8,44154
+WO-26564,DT-1549,DT-100,,lampu tekanan oli menyala setelah PM 250,Pompa oli aus,Cek level oli,16.6,45806
+WO-26565,DT-1230,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen,25.3,18876
+WO-26566,EX-2620,EX-2000,X-ENG-310,suhu engine tinggi,Radiator tersumbat,Bersihkan radiator; Cek coolant; Idle-kan mesin sebelum dimatikan,22.9,45168
+WO-26567,DT-1567,DT-100,E-SUS-401,unit miring ke satu sisi,Seal silinder suspensi rusak,Ukur ride height,29.8,2973
+WO-26568,DT-1834,DT-100,E-ENG-115,tekanan oli drop saat idle setelah hujan,Sensor tekanan rusak,Ambil sampel oli (fuel dilution); Matikan mesin segera,27.2,28912
+WO-26569,BD-2661,BD-375,D-PT-201,power train panas setelah PM 250,Oil cooler tersumbat,Bersihkan cooler,26.8,6822
+WO-26570,DT-2172,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah PM 250,Filter suction tersumbat,Ukur tekanan relief hoist,31.6,40481
+WO-26571,DT-1466,DT-100,E-SUS-401,suspensi bocor oli,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor; Ukur ride height,5.7,41939
+WO-26572,EX-1318,EX-2000,,rantai track melorot,Tekanan grease track adjuster turun,Ukur sag track (30–50 mm); Tambah grease adjuster; Cek seal adjuster,12.3,26857
+WO-26573,DT-3088,DT-100,E-BRK-301,rem terasa dalam saat shift malam,Nitrogen accumulator rendah,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",27.4,3541
+WO-26574,EX-1992,EX-2000,,swing lambat setelah hujan,Swing brake tidak release,Cek oli swing & magnetic plug; Cek swing brake release pressure; Uji drain rate swing motor,14.9,34555
+WO-26575,EX-1890,EX-2000,X-ENG-310,mesin excavator overheat setelah hujan,Radiator tersumbat,Idle-kan mesin sebelum dimatikan; Bersihkan radiator; Cek coolant,16.8,24285
+WO-26576,DT-2302,DT-100,E-ENG-115,lampu tekanan oli menyala di tanjakan ramp,Filter oli tersumbat,Matikan mesin segera,16.4,33119
+WO-26577,BD-2895,BD-375,D-PT-201,power train panas saat shift malam,Oil cooler tersumbat,Kurangi beban dozing,23.8,27728
+WO-26578,DT-2595,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Filter suction tersumbat,Cek level oli hidrolik; Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik),28.9,28882
+WO-26579,DT-1828,DT-100,E-BRK-301,alarm tekanan rem setelah PM 250,Kebocoran selang rem,Tes rem statis; Cek kebocoran; Ukur tekanan nitrogen accumulator,6.2,5503
+WO-26580,BD-1850,BD-375,D-UND-301,baut shoe longgar setelah PM 250,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,9.6,43380
+WO-26581,DT-2514,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan saat shift malam,Kopling slip,Bersihkan cooler; Cek level oli transmisi,34.3,17417
+WO-26582,DT-1387,DT-100,E-ELC-501,lampu redup saat shift malam,Terminal baterai korosi,Bersihkan terminal,28.1,32786
+WO-26583,EX-2097,EX-2000,X-ENG-310,suhu engine tinggi setelah PM 250,Radiator tersumbat,Cek coolant,15.7,32976
+WO-26584,DT-2397,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah PM 250,Level oli hidrolik rendah,Cek level oli hidrolik,32.5,31479
+WO-26585,DT-1286,DT-100,E-ELC-501,lampu redup setelah hujan,Kabel ground rusak,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",29.3,47738
+WO-26586,DT-2747,DT-100,,tekanan oli drop saat idle setelah hujan,Filter oli tersumbat,Cek level oli; Ambil sampel oli (fuel dilution),9.0,36875
+WO-26587,BD-1033,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat saat shift malam,Torque converter stall terlalu lama,Bersihkan cooler,27.7,15864
+WO-26588,DT-1496,DT-100,E-ELC-501,monitor panel mati hidup,Kabel ground rusak,Bersihkan terminal; Cek output alternator,18.3,10388
+WO-26589,EX-1252,EX-2000,,mesin excavator overheat,Coolant kurang,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,32.7,10796
+WO-26590,DT-2210,DT-100,E-TRM-201,transmisi panas saat shift malam,Level oli transmisi kurang,Bersihkan cooler,17.9,45620
+WO-26591,DT-2750,DT-100,E-ENG-115,tekanan oli drop saat idle,Pengenceran oli oleh bahan bakar,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution); Cek level oli,24.6,39378
+WO-26592,BD-2650,BD-375,D-UND-301,baut shoe longgar di tanjakan ramp,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,14.9,3866
+WO-26593,EX-1066,EX-2000,,fungsi kontrol hilang sesaat setelah hujan,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm),25.8,11183
+WO-26594,DT-1804,DT-100,E-ELC-501,lampu redup setelah hujan,Terminal baterai korosi,Cek output alternator,22.7,46718
+WO-26595,DT-1999,DT-100,E-ELC-501,unit susah starter setelah hujan,Belt alternator slip,Cek output alternator,25.5,31258
+WO-26596,DT-1206,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan di tanjakan ramp,Fan belt slip/putus,Bersihkan radiator; Cek fan belt; Uji thermostat,12.4,43178
+WO-26597,DT-1180,DT-100,,pengereman tidak pakem saat turunan,Kebocoran selang rem,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",25.7,11121
+WO-26598,BD-2429,BD-375,D-ENG-101,dozer overheat di tanjakan ramp,Radiator tersumbat material,Aktifkan fan reverse,26.0,45071
+WO-26599,EX-1904,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Pompa pilot aus,Setel relief pilot; Ukur tekanan pilot di test port,18.5,47975
+WO-26600,DT-2651,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Setting relief valve turun,Cek level oli hidrolik; Cek waktu angkat (± 20 detik),3.7,17724
+WO-26601,EX-1639,EX-2000,,fungsi kontrol hilang sesaat saat shift malam,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),7.9,33630
+WO-26602,DT-2272,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Seal silinder suspensi rusak,Isi ulang nitrogen; Ukur ride height,12.3,40013
+WO-26603,DT-1579,DT-100,,unit susah starter,Kabel ground rusak,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal; Cek output alternator",14.4,4452
+WO-26604,DT-1099,DT-100,E-TRM-201,transmisi panas setelah PM 250,Kopling slip,Tes stall; Kurangi beban; Cek level oli transmisi,12.5,14862
+WO-26605,DT-1234,DT-100,E-SUS-401,suspensi bocor oli saat shift malam,Seal silinder suspensi rusak,Isi ulang nitrogen,25.2,14185
+WO-26606,EX-1053,EX-2000,,alarm hydraulic temperature saat shift malam,Relief valve bocor internal,Cek level oli; Ukur putaran fan,2.6,3671
+WO-26607,DT-1015,DT-100,E-ENG-115,bunyi ketukan dari mesin,Sensor tekanan rusak,Cek level oli; Matikan mesin segera; Verifikasi dengan manometer mekanik,11.5,36045
+WO-26608,DT-1737,DT-100,E-ENG-115,lampu tekanan oli menyala setelah hujan,Filter oli tersumbat,Cek level oli; Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution),2.3,16280
+WO-26609,DT-1363,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Pengenceran oli oleh bahan bakar,Cek level oli; Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,15.3,12366
+WO-26610,DT-1274,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan di tanjakan ramp,Water pump rusak,Cek level coolant setelah suhu < 50 °C,35.4,38691
+WO-26611,EX-1302,EX-2000,X-SWG-210,bunyi gemeretak saat swing saat shift malam,Swing motor bocor internal,Uji drain rate swing motor; Cek swing brake release pressure; Cek oli swing & magnetic plug,31.1,6985
+WO-26612,DT-2773,DT-100,E-ENG-115,lampu tekanan oli menyala setelah PM 250,Pengenceran oli oleh bahan bakar,Cek level oli; Ambil sampel oli (fuel dilution); Matikan mesin segera,7.7,30551
+WO-26613,EX-2264,EX-2000,,swing tersendat,Gear swing aus,Cek swing brake release pressure,15.5,16455
+WO-26614,BD-2662,BD-375,D-UND-301,bunyi ketukan dari track,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,15.7,46425
+WO-26615,DT-1888,DT-100,E-BRK-301,rem terasa dalam setelah PM 250,Pompa rem aus,Tes rem statis; Cek kebocoran,8.9,36900
+WO-26616,EX-1662,EX-2000,X-UND-410,rantai track melorot di tanjakan ramp,Tekanan grease track adjuster turun,Cek seal adjuster,14.8,40005
+WO-26617,DT-1046,DT-100,E-ELC-501,lampu redup setelah PM 250,Belt alternator slip,Bersihkan terminal; Cek output alternator,24.9,30530
+WO-26618,EX-1003,EX-2000,X-ELC-510,monitor error komunikasi setelah PM 250,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),21.1,17049
+WO-26619,EX-2953,EX-2000,X-ENG-310,suhu engine tinggi setelah PM 250,Radiator tersumbat,Bersihkan radiator,5.9,22349
+WO-26620,BD-1101,BD-375,D-UND-301,bunyi ketukan dari track setelah hujan,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut; Inspeksi retakan shoe,33.3,47768
+WO-26621,EX-1772,EX-2000,X-SWG-210,bunyi gemeretak saat swing di tanjakan ramp,Oli swing machinery kurang/terkontaminasi,Cek oli swing & magnetic plug; Uji drain rate swing motor,34.3,10314
+WO-26622,EX-2264,EX-2000,X-UND-410,track kendur,Seal adjuster bocor,Ukur sag track (30–50 mm); Tambah grease adjuster,1.9,43895
+WO-26623,EX-2073,EX-2000,X-UND-410,rantai track melorot saat shift malam,Tekanan grease track adjuster turun,Cek seal adjuster,25.5,13058
+WO-26624,BD-1069,BD-375,D-PT-201,power train panas saat shift malam,Oil cooler tersumbat,Bersihkan cooler; Hindari stall > 10 detik,21.4,2380
+WO-26625,DT-2604,DT-100,E-BRK-301,rem terasa dalam setelah PM 250,Kebocoran selang rem,"Cek kebocoran; Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE",1.8,19237
+WO-26626,DT-1664,DT-100,E-ELC-501,unit susah starter saat shift malam,Alternator rusak,Cek output alternator; Bersihkan terminal,7.2,40831
+WO-26627,DT-1056,DT-100,E-HYD-601,vessel lambat naik saat dumping,Level oli hidrolik rendah,Cek waktu angkat (± 20 detik); Cek level oli hidrolik; Ukur tekanan relief hoist,18.2,14016
+WO-26628,DT-2064,DT-100,E-ENG-101,coolant cepat habis saat shift malam,Coolant kurang/bocor,Cek level coolant setelah suhu < 50 °C; Cek fan belt,20.9,25021
+WO-26629,EX-1377,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi di tanjakan ramp,Fan cooler tidak optimal,Bersihkan oil cooler; Kurangi beban kerja; Thermo-gun pada relief valve,27.6,21193
+WO-26630,EX-2048,EX-2000,,kode CAN muncul hilang di tanjakan ramp,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),14.0,33505
+WO-26631,DT-2353,DT-100,E-HYD-601,vessel lambat naik saat dumping setelah hujan,Setting relief valve turun,Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik); Cek level oli hidrolik,10.5,44146
+WO-26632,BD-3076,BD-375,D-ENG-101,dozer overheat setelah hujan,Coolant kurang,Cek coolant; Aktifkan fan reverse,11.0,16184
+WO-26633,EX-2779,EX-2000,X-UND-410,track lepas saat travel saat shift malam,Idler/roller aus,Tambah grease adjuster; Ukur sag track (30–50 mm); Cek seal adjuster,30.0,35120
+WO-26634,EX-2495,EX-2000,X-ENG-310,suhu engine tinggi di tanjakan ramp,Coolant kurang,Idle-kan mesin sebelum dimatikan,0.7,34485
+WO-26635,EX-1895,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Gear swing aus,Cek swing brake release pressure,23.5,20911
+WO-26636,EX-2308,EX-2000,X-HYD-110,oli hidrolik panas setelah hujan,Fan cooler tidak optimal,Bersihkan oil cooler; Kurangi beban kerja; Cek level oli,13.3,3289
+WO-26637,DT-1210,DT-100,E-ELC-501,monitor panel mati hidup,Terminal baterai korosi,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",10.5,40751
+WO-26638,DT-2290,DT-100,E-HYD-601,hoist tidak kuat angkat penuh saat shift malam,Level oli hidrolik rendah,Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik); Cek level oli hidrolik,28.5,23833
+WO-26639,DT-2439,DT-100,,suhu mesin naik terus saat tanjakan setelah hujan,Coolant kurang/bocor,Idle-kan mesin 5 menit sebelum dimatikan; Uji thermostat; Cek level coolant setelah suhu < 50 °C,1.9,9893
+WO-26640,DT-1860,DT-100,E-ENG-101,mesin overheat setelah hujan,Fan belt slip/putus,Idle-kan mesin 5 menit sebelum dimatikan; Cek level coolant setelah suhu < 50 °C,31.9,10327
+WO-26641,BD-2355,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah PM 250,Oil cooler tersumbat,Bersihkan cooler; Kurangi beban dozing; Hindari stall > 10 detik,28.8,7790
+WO-26642,DT-2126,DT-100,E-BRK-301,pengereman tidak pakem saat turunan,Kebocoran selang rem,Ukur tekanan nitrogen accumulator,6.4,24659
+WO-26643,DT-1751,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Kabel ground rusak,"Ukur tegangan pengisian (27–28,5 V); Bersihkan terminal",12.7,46544
+WO-26644,DT-2434,DT-100,E-ENG-115,bunyi ketukan dari mesin saat shift malam,Sensor tekanan rusak,Verifikasi dengan manometer mekanik; Matikan mesin segera,12.6,6459
+WO-26645,EX-2328,EX-2000,,boom tidak mau naik saat shift malam,Relief pilot valve rusak,Ganti filter pilot; Setel relief pilot,17.4,21151
+WO-26646,EX-1129,EX-2000,X-UND-410,rantai track melorot di tanjakan ramp,Seal adjuster bocor,Cek seal adjuster; Ukur sag track (30–50 mm),15.3,32257
+WO-26647,DT-2025,DT-100,E-ELC-501,unit susah starter di tanjakan ramp,Alternator rusak,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V)",35.9,10401
+WO-26648,DT-2743,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan saat shift malam,Kopling slip,Bersihkan cooler; Cek level oli transmisi,4.1,29007
+WO-26649,DT-1655,DT-100,,coolant cepat habis di tanjakan ramp,Water pump rusak,Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,22.6,5080
+WO-26650,BD-1083,BD-375,D-ENG-101,suhu mesin dozer tinggi saat shift malam,Coolant kurang,Aktifkan fan reverse,8.8,41731
+WO-26651,EX-2375,EX-2000,,mesin excavator overheat setelah hujan,Radiator tersumbat,Cek coolant; Bersihkan radiator,12.2,41540
+WO-26652,DT-1710,DT-100,E-SUS-401,unit miring ke satu sisi,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor; Isi ulang nitrogen; Ukur ride height,8.1,16217
+WO-26653,DT-1235,DT-100,,bunyi ketukan dari mesin saat shift malam,Pengenceran oli oleh bahan bakar,Ambil sampel oli (fuel dilution); Matikan mesin segera; Cek level oli,22.1,17078
+WO-26654,EX-1973,EX-2000,,kode CAN muncul hilang saat shift malam,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,9.6,32092
+WO-26655,EX-1262,EX-2000,,track kendur setelah PM 250,Seal adjuster bocor,Tambah grease adjuster; Cek seal adjuster,12.3,39897
+WO-26656,DT-2019,DT-100,E-ENG-101,suhu mesin naik terus saat tanjakan setelah hujan,Fan belt slip/putus,Bersihkan radiator; Cek level coolant setelah suhu < 50 °C; Idle-kan mesin 5 menit sebelum dimatikan,22.3,15947
+WO-26657,DT-1440,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi,Level oli transmisi kurang,Cek level oli transmisi; Bersihkan cooler; Tes stall,15.0,45982
+WO-26658,DT-2852,DT-100,E-BRK-301,alarm tekanan rem,Pompa rem aus,Cek kebocoran; Tes rem statis,6.2,8510
+WO-26659,BD-1638,BD-375,D-ENG-101,suhu mesin dozer tinggi saat shift malam,Radiator tersumbat material,Aktifkan fan reverse; Cek coolant,21.6,17334
+WO-26660,EX-2887,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Resistor terminasi rusak,Periksa konektor boom foot,17.7,2963
+WO-26661,EX-2197,EX-2000,X-UND-410,track kendur di tanjakan ramp,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),21.6,41750
+WO-26662,DT-2302,DT-100,,perpindahan gigi kasar dan suhu transmisi tinggi setelah hujan,Kopling slip,Kurangi beban,29.2,12837
+WO-26663,DT-1141,DT-100,E-ENG-101,coolant cepat habis setelah PM 250,Coolant kurang/bocor,Cek fan belt; Cek level coolant setelah suhu < 50 °C; Bersihkan radiator,26.9,21495
+WO-26664,EX-2638,EX-2000,X-UND-410,track lepas saat travel setelah PM 250,Tekanan grease track adjuster turun,Cek seal adjuster,14.6,16780
+WO-26665,DT-2882,DT-100,E-ENG-115,tekanan oli drop saat idle di tanjakan ramp,Pengenceran oli oleh bahan bakar,Cek level oli,11.1,5709
+WO-26666,DT-1998,DT-100,E-SUS-401,unit miring ke satu sisi,Kebocoran gas nitrogen suspensi,Ganti seal bila bocor; Ukur ride height,24.1,30455
+WO-26667,DT-2002,DT-100,E-ELC-501,unit susah starter saat shift malam,Alternator rusak,Bersihkan terminal,2.6,36949
+WO-26668,EX-1693,EX-2000,X-SWG-210,swing lambat saat shift malam,Gear swing aus,Cek oli swing & magnetic plug,8.9,3266
+WO-26669,DT-1038,DT-100,E-HYD-601,vessel lambat naik saat dumping di tanjakan ramp,Level oli hidrolik rendah,Ukur tekanan relief hoist; Cek level oli hidrolik; Cek waktu angkat (± 20 detik),20.6,44949
+WO-26670,DT-2909,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan,Pola operasi rpm tinggi gigi rendah,Tes stall,21.5,21270
+WO-26671,BD-2449,BD-375,,track shoe lepas,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut; Inspeksi retakan shoe,9.6,7735
+WO-26672,DT-1989,DT-100,E-ENG-115,lampu tekanan oli menyala di tanjakan ramp,Pompa oli aus,Verifikasi dengan manometer mekanik,13.5,3007
+WO-26673,EX-2521,EX-2000,,suhu engine tinggi,Radiator tersumbat,Idle-kan mesin sebelum dimatikan,4.4,39482
+WO-26674,DT-2936,DT-100,,perpindahan gigi kasar dan suhu transmisi tinggi di tanjakan ramp,Kopling slip,Bersihkan cooler; Cek level oli transmisi; Tes stall,14.5,23379
+WO-26675,EX-1321,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat di tanjakan ramp,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,16.3,46049
+WO-26676,DT-2452,DT-100,E-BRK-301,rem terasa dalam setelah PM 250,Pompa rem aus,"Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Cek kebocoran",5.3,27527
+WO-26677,EX-3026,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah hujan,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,4.0,36882
+WO-26678,BD-1891,BD-375,D-UND-301,bunyi ketukan dari track saat shift malam,Operasi di batuan keras dengan kecepatan tinggi,Torque ulang baut,33.4,20119
+WO-26679,EX-3025,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat saat shift malam,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),26.3,1255
+WO-26680,EX-2222,EX-2000,X-SWG-210,bunyi gemeretak saat swing,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor,24.3,25749
+WO-26681,DT-1849,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Terminal baterai korosi,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator; Bersihkan terminal",15.3,32604
+WO-26682,DT-3092,DT-100,E-ENG-101,coolant cepat habis setelah PM 250,Fan belt slip/putus,Bersihkan radiator; Cek fan belt,33.4,15385
+WO-26683,EX-1901,EX-2000,X-ELC-510,monitor error komunikasi setelah hujan,Resistor terminasi rusak,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,21.9,43188
+WO-26684,EX-1594,EX-2000,X-HYD-110,alarm hydraulic temperature saat shift malam,Fan cooler tidak optimal,Cek level oli; Kurangi beban kerja; Thermo-gun pada relief valve,25.6,40119
+WO-26685,DT-1914,DT-100,E-BRK-301,alarm tekanan rem setelah hujan,Pompa rem aus,"Cek kebocoran; Tes rem statis; Unit dilarang beroperasi, pasang tag DO NOT OPERATE",2.1,18516
+WO-26686,DT-2851,DT-100,E-ENG-115,lampu tekanan oli menyala setelah PM 250,Pompa oli aus,Cek level oli; Ambil sampel oli (fuel dilution); Matikan mesin segera,18.7,19600
+WO-26687,BD-1468,BD-375,D-UND-301,track shoe lepas setelah PM 250,Torque baut tidak sesuai,Torque ulang baut; Inspeksi retakan shoe,21.2,27445
+WO-26688,DT-2033,DT-100,E-ENG-115,bunyi ketukan dari mesin setelah PM 250,Pompa oli aus,Verifikasi dengan manometer mekanik; Ambil sampel oli (fuel dilution),17.4,19868
+WO-26689,BD-1509,BD-375,,power train panas di tanjakan ramp,Torque converter stall terlalu lama,Kurangi beban dozing; Bersihkan cooler,19.9,28018
+WO-26690,EX-2773,EX-2000,,mesin excavator overheat,Thermostat,Cek coolant; Idle-kan mesin sebelum dimatikan,8.0,46073
+WO-26691,EX-1386,EX-2000,X-ENG-310,suhu engine tinggi saat shift malam,Thermostat,Idle-kan mesin sebelum dimatikan,16.9,25220
+WO-26692,EX-2715,EX-2000,X-UND-410,track lepas saat travel,Seal adjuster bocor,Cek seal adjuster,22.1,15481
+WO-26693,BD-1220,BD-375,D-UND-301,bunyi ketukan dari track setelah PM 250,Torque baut tidak sesuai,Torque ulang baut,35.2,12124
+WO-26694,DT-2745,DT-100,E-ENG-115,tekanan oli drop saat idle,Level oli rendah,Matikan mesin segera,12.9,45978
+WO-26695,DT-1992,DT-100,,lampu redup,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator",22.3,35729
+WO-26696,EX-2951,EX-2000,X-ENG-310,mesin excavator overheat saat shift malam,Fan belt,Idle-kan mesin sebelum dimatikan; Cek coolant; Bersihkan radiator,21.8,20589
+WO-26697,EX-1961,EX-2000,X-UND-410,track lepas saat travel di tanjakan ramp,Idler/roller aus,Cek seal adjuster; Ukur sag track (30–50 mm),33.1,37124
+WO-26698,DT-1632,DT-100,,rem terasa dalam setelah PM 250,Kebocoran selang rem,Ukur tekanan nitrogen accumulator; Tes rem statis,11.9,23614
+WO-26699,DT-2322,DT-100,E-BRK-301,pengereman tidak pakem saat turunan saat shift malam,Nitrogen accumulator rendah,"Unit dilarang beroperasi, pasang tag DO NOT OPERATE; Ukur tekanan nitrogen accumulator",31.7,42445
+WO-26700,EX-1770,EX-2000,X-HYD-120,boom tidak mau naik saat shift malam,Pompa pilot aus,Ganti filter pilot; Setel relief pilot,1.8,46827
+WO-26701,EX-1852,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),20.2,22062
+WO-26702,EX-1993,EX-2000,,oli hidrolik panas setelah PM 250,Oil cooler tersumbat,Ukur putaran fan; Cek level oli,27.9,32021
+WO-26703,EX-2756,EX-2000,X-ELC-510,kode CAN muncul hilang setelah PM 250,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),11.4,39164
+WO-26704,BD-2981,BD-375,D-PT-201,power train panas di tanjakan ramp,Torque converter stall terlalu lama,Hindari stall > 10 detik; Kurangi beban dozing; Bersihkan cooler,32.2,22736
+WO-26705,DT-2928,DT-100,E-TRM-201,transmisi panas saat shift malam,Pola operasi rpm tinggi gigi rendah,Kurangi beban; Tes stall,15.7,3086
+WO-26706,BD-2204,BD-375,D-UND-301,bunyi ketukan dari track saat shift malam,Torque baut tidak sesuai,Inspeksi retakan shoe,25.6,13013
+WO-26707,EX-1941,EX-2000,X-SWG-210,swing lambat setelah PM 250,Gear swing aus,Cek oli swing & magnetic plug; Cek swing brake release pressure; Uji drain rate swing motor,2.7,45352
+WO-26708,EX-1386,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi,Level oli hidrolik rendah,Cek level oli; Ukur putaran fan; Thermo-gun pada relief valve,4.0,21516
+WO-26709,EX-1637,EX-2000,X-SWG-210,swing tersendat setelah hujan,Swing brake tidak release,Uji drain rate swing motor,24.2,11511
+WO-26710,EX-2438,EX-2000,X-HYD-120,joystick tidak responsif di tanjakan ramp,Filter pilot tersumbat,Ganti filter pilot; Ukur tekanan pilot di test port,33.8,8934
+WO-26711,BD-1034,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah hujan,Coolant kurang,Cek coolant,20.9,7953
+WO-26712,EX-1160,EX-2000,X-SWG-210,swing lambat di tanjakan ramp,Swing motor bocor internal,Cek oli swing & magnetic plug; Cek swing brake release pressure,30.0,9997
+WO-26713,EX-1229,EX-2000,X-SWG-210,swing tersendat setelah PM 250,Swing brake tidak release,Cek swing brake release pressure,29.8,26466
+WO-26714,DT-2309,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi di tanjakan ramp,Level oli transmisi kurang,Cek level oli transmisi,6.9,39073
+WO-26715,DT-2773,DT-100,E-ELC-501,lampu redup di tanjakan ramp,Alternator rusak,"Ukur tegangan pengisian (27–28,5 V); Cek output alternator; Bersihkan terminal",33.7,28949
+WO-26716,DT-1383,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Belt alternator slip,"Bersihkan terminal; Ukur tegangan pengisian (27–28,5 V); Cek output alternator",3.8,5487
+WO-26717,DT-2205,DT-100,,hoist tidak kuat angkat penuh saat shift malam,Level oli hidrolik rendah,Cek level oli hidrolik; Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik),15.6,12844
+WO-26718,DT-1943,DT-100,E-HYD-601,hoist tidak kuat angkat penuh setelah PM 250,Setting relief valve turun,Cek level oli hidrolik; Cek waktu angkat (± 20 detik),9.6,32174
+WO-26719,EX-1153,EX-2000,X-UND-410,rantai track melorot setelah hujan,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),28.0,24922
+WO-26720,EX-1548,EX-2000,X-SWG-210,bunyi gemeretak saat swing setelah PM 250,Gear swing aus,Cek oli swing & magnetic plug; Cek swing brake release pressure,12.7,30675
+WO-26721,EX-2529,EX-2000,X-HYD-120,semua gerakan lambat setelah PM 250,Filter pilot tersumbat,Ganti filter pilot; Ukur tekanan pilot di test port,31.7,32631
+WO-26722,DT-2322,DT-100,E-ENG-101,indikator temperatur merah saat shift malam,Coolant kurang/bocor,Cek fan belt; Uji thermostat; Cek level coolant setelah suhu < 50 °C,30.3,32023
+WO-26723,EX-1825,EX-2000,,fungsi kontrol hilang sesaat,Harness terkelupas,Periksa konektor boom foot,27.6,39781
+WO-26724,EX-2126,EX-2000,X-ENG-310,suhu engine tinggi saat shift malam,Fan belt,Cek coolant,26.8,41211
+WO-26725,EX-2058,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah PM 250,Resistor terminasi rusak,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),15.0,8179
+WO-26726,BD-2804,BD-375,D-PT-201,power train panas setelah hujan,Torque converter stall terlalu lama,Bersihkan cooler; Kurangi beban dozing,3.4,15283
+WO-26727,EX-2469,EX-2000,X-HYD-120,joystick tidak responsif di tanjakan ramp,Relief pilot valve rusak,Ganti filter pilot; Ukur tekanan pilot di test port,26.3,1203
+WO-26728,EX-3013,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Radiator tersumbat,Cek coolant; Bersihkan radiator; Idle-kan mesin sebelum dimatikan,9.8,45967
+WO-26729,DT-2782,DT-100,E-ELC-501,lampu redup setelah PM 250,Belt alternator slip,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V)",12.1,19434
+WO-26730,EX-2406,EX-2000,X-ENG-310,mesin excavator overheat di tanjakan ramp,Radiator tersumbat,Bersihkan radiator; Cek coolant; Idle-kan mesin sebelum dimatikan,5.3,47857
+WO-26731,EX-1688,EX-2000,X-HYD-120,boom tidak mau naik setelah PM 250,Filter pilot tersumbat,Ukur tekanan pilot di test port; Ganti filter pilot; Setel relief pilot,29.0,9350
+WO-26732,EX-2326,EX-2000,X-SWG-210,swing lambat saat shift malam,Oli swing machinery kurang/terkontaminasi,Uji drain rate swing motor,36.0,29238
+WO-26733,DT-2022,DT-100,E-ELC-501,monitor panel mati hidup di tanjakan ramp,Kabel ground rusak,"Cek output alternator; Ukur tegangan pengisian (27–28,5 V)",10.7,17223
+WO-26734,BD-3098,BD-375,D-ENG-101,dozer overheat setelah hujan,Coolant kurang,Cek coolant,1.2,6743
+WO-26735,DT-2366,DT-100,,coolant cepat habis setelah PM 250,Radiator tersumbat debu/lumpur,Cek fan belt,29.1,43701
+WO-26736,DT-2883,DT-100,E-HYD-601,vessel lambat naik saat dumping di tanjakan ramp,Level oli hidrolik rendah,Cek waktu angkat (± 20 detik); Ukur tekanan relief hoist,13.8,32319
+WO-26737,DT-1796,DT-100,E-ENG-115,lampu tekanan oli menyala,Filter oli tersumbat,Ambil sampel oli (fuel dilution); Cek level oli,8.2,21125
+WO-26738,EX-2547,EX-2000,X-SWG-210,swing tersendat setelah PM 250,Gear swing aus,Cek swing brake release pressure; Uji drain rate swing motor; Cek oli swing & magnetic plug,26.0,16445
+WO-26739,DT-2519,DT-100,E-BRK-301,rem terasa dalam saat shift malam,Pompa rem aus,Cek kebocoran,15.5,32446
+WO-26740,DT-2147,DT-100,E-ENG-115,tekanan oli drop saat idle setelah hujan,Pompa oli aus,Matikan mesin segera,16.9,29249
+WO-26741,DT-2821,DT-100,E-ELC-501,unit susah starter di tanjakan ramp,Kabel ground rusak,Bersihkan terminal,25.2,34586
+WO-26742,BD-2175,BD-375,D-UND-301,bunyi ketukan dari track setelah hujan,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,33.9,34127
+WO-26743,EX-1113,EX-2000,X-ENG-310,suhu engine tinggi setelah hujan,Coolant kurang,Bersihkan radiator; Idle-kan mesin sebelum dimatikan; Cek coolant,28.3,32408
+WO-26744,EX-1616,EX-2000,,monitor error komunikasi setelah hujan,Harness terkelupas,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),31.3,28807
+WO-26745,BD-1819,BD-375,D-PT-201,dozer kehilangan tenaga saat dozing berat setelah hujan,Oil cooler tersumbat,Hindari stall > 10 detik,3.2,32079
+WO-26746,DT-1191,DT-100,E-HYD-601,vessel lambat naik saat dumping,Pompa hoist aus,Cek waktu angkat (± 20 detik),10.4,3395
+WO-26747,BD-2079,BD-375,D-ENG-101,dozer overheat setelah hujan,Fan reversible tidak bekerja,Cek coolant; Aktifkan fan reverse,19.1,23058
+WO-26748,BD-1534,BD-375,D-ENG-101,dozer overheat saat shift malam,Fan reversible tidak bekerja,Cek coolant,15.8,3290
+WO-26749,DT-1246,DT-100,E-ENG-101,mesin overheat,Radiator tersumbat debu/lumpur,Cek fan belt; Idle-kan mesin 5 menit sebelum dimatikan,29.4,39532
+WO-26750,EX-3056,EX-2000,X-UND-410,rantai track melorot setelah PM 250,Seal adjuster bocor,Ukur sag track (30–50 mm),26.6,21801
+WO-26751,DT-2835,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan saat shift malam,Level oli transmisi kurang,Kurangi beban; Bersihkan cooler; Cek level oli transmisi,10.3,29143
+WO-26752,DT-3092,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi,Kopling slip,Bersihkan cooler; Cek level oli transmisi; Tes stall,23.5,34696
+WO-26753,BD-1604,BD-375,D-UND-301,baut shoe longgar di tanjakan ramp,Torque baut tidak sesuai,Inspeksi retakan shoe; Torque ulang baut,1.1,25636
+WO-26754,DT-1278,DT-100,E-SUS-401,unit miring ke satu sisi setelah PM 250,Seal silinder suspensi rusak,Isi ulang nitrogen; Ganti seal bila bocor,6.3,16448
+WO-26755,EX-1072,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi setelah hujan,Oil cooler tersumbat,Cek level oli; Thermo-gun pada relief valve; Ukur putaran fan,30.3,45791
+WO-26756,EX-1225,EX-2000,X-HYD-110,oli hidrolik panas setelah hujan,Fan cooler tidak optimal,Cek level oli,8.2,6982
+WO-26757,EX-2848,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah hujan,Harness terkelupas,Periksa konektor boom foot,8.1,39917
+WO-26758,DT-2226,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi di tanjakan ramp,Kopling slip,Bersihkan cooler; Kurangi beban,29.9,1374
+WO-26759,DT-1926,DT-100,E-HYD-601,vessel lambat naik saat dumping saat shift malam,Setting relief valve turun,Ukur tekanan relief hoist; Cek waktu angkat (± 20 detik); Cek level oli hidrolik,17.6,15988
+WO-26760,EX-2963,EX-2000,X-UND-410,track lepas saat travel di tanjakan ramp,Tekanan grease track adjuster turun,Cek seal adjuster; Tambah grease adjuster; Ukur sag track (30–50 mm),7.7,14540
+WO-26761,EX-2532,EX-2000,X-UND-410,track kendur setelah hujan,Tekanan grease track adjuster turun,Cek seal adjuster; Ukur sag track (30–50 mm); Tambah grease adjuster,32.5,28620
+WO-26762,EX-3003,EX-2000,X-ENG-310,mesin excavator overheat,Radiator tersumbat,Idle-kan mesin sebelum dimatikan; Bersihkan radiator,12.1,42003
+WO-26763,DT-2537,DT-100,E-ENG-115,lampu tekanan oli menyala setelah PM 250,Sensor tekanan rusak,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik; Matikan mesin segera,29.2,8448
+WO-26764,EX-1398,EX-2000,X-ELC-510,kode CAN muncul hilang saat shift malam,Harness terkelupas,Ukur resistansi CAN (± 60 ohm); Periksa konektor boom foot,11.5,38682
+WO-26765,DT-1775,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi di tanjakan ramp,Level oli transmisi kurang,Kurangi beban; Tes stall; Bersihkan cooler,25.5,12540
+WO-26766,EX-2898,EX-2000,X-SWG-210,swing tersendat setelah hujan,Gear swing aus,Cek swing brake release pressure,9.1,4609
+WO-26767,DT-1792,DT-100,E-BRK-301,rem terasa dalam di tanjakan ramp,Kebocoran selang rem,Ukur tekanan nitrogen accumulator,35.7,20580
+WO-26768,EX-2460,EX-2000,X-ELC-510,monitor error komunikasi setelah hujan,Konektor longgar/korosi,Ukur resistansi CAN (± 60 ohm),30.6,5313
+WO-26769,EX-2216,EX-2000,,mesin excavator overheat setelah hujan,Coolant kurang,Idle-kan mesin sebelum dimatikan,16.2,6963
+WO-26770,DT-2310,DT-100,E-BRK-301,pengereman tidak pakem saat turunan setelah hujan,Kebocoran selang rem,Tes rem statis; Cek kebocoran; Ukur tekanan nitrogen accumulator,26.8,47594
+WO-26771,BD-1753,BD-375,D-ENG-101,suhu mesin dozer tinggi,Radiator tersumbat material,Cek coolant; Aktifkan fan reverse,4.0,27847
+WO-26772,EX-1337,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Pompa pilot aus,Ganti filter pilot,33.1,7948
+WO-26773,DT-1383,DT-100,,coolant cepat habis setelah PM 250,Thermostat macet,Cek fan belt,32.3,47227
+WO-26774,DT-1580,DT-100,E-SUS-401,guncangan berlebih setelah PM 250,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ukur ride height; Ganti seal bila bocor,18.4,9453
+WO-26775,DT-2563,DT-100,E-SUS-401,unit miring ke satu sisi di tanjakan ramp,Kebocoran gas nitrogen suspensi,Isi ulang nitrogen; Ganti seal bila bocor; Ukur ride height,1.6,13884
+WO-26776,EX-1944,EX-2000,,semua gerakan lambat setelah hujan,Pompa pilot aus,Setel relief pilot; Ganti filter pilot; Ukur tekanan pilot di test port,28.9,42707
+WO-26777,EX-1202,EX-2000,X-UND-410,rantai track melorot di tanjakan ramp,Seal adjuster bocor,Ukur sag track (30–50 mm),6.1,3199
+WO-26778,DT-2041,DT-100,E-ENG-115,tekanan oli drop saat idle saat shift malam,Pompa oli aus,Ambil sampel oli (fuel dilution); Verifikasi dengan manometer mekanik,20.3,9201
+WO-26779,DT-1184,DT-100,E-SUS-401,guncangan berlebih saat shift malam,Seal silinder suspensi rusak,Isi ulang nitrogen,35.9,43308
+WO-26780,DT-2180,DT-100,E-ENG-101,coolant cepat habis,Coolant kurang/bocor,Uji thermostat; Cek fan belt; Idle-kan mesin 5 menit sebelum dimatikan,6.7,13122
+WO-26781,EX-2848,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Filter pilot tersumbat,Ukur tekanan pilot di test port; Setel relief pilot,14.7,40979
+WO-26782,EX-3069,EX-2000,X-ENG-310,mesin excavator overheat setelah PM 250,Radiator tersumbat,Cek coolant; Idle-kan mesin sebelum dimatikan; Bersihkan radiator,14.4,46276
+WO-26783,EX-2452,EX-2000,X-HYD-120,joystick tidak responsif setelah hujan,Filter pilot tersumbat,Ganti filter pilot,5.3,34939
+WO-26784,BD-1974,BD-375,,baut shoe longgar setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,14.3,4638
+WO-26785,BD-1401,BD-375,D-ENG-101,dozer overheat,Coolant kurang,Aktifkan fan reverse,31.3,37638
+WO-26786,EX-1327,EX-2000,X-ELC-510,kode CAN muncul hilang di tanjakan ramp,Konektor longgar/korosi,Periksa konektor boom foot; Ukur resistansi CAN (± 60 ohm),22.3,15245
+WO-26787,DT-1691,DT-100,E-ENG-101,indikator temperatur merah saat shift malam,Coolant kurang/bocor,Idle-kan mesin 5 menit sebelum dimatikan; Bersihkan radiator,20.7,21387
+WO-26788,DT-2482,DT-100,E-TRM-201,unit kehilangan tenaga di tanjakan,Level oli transmisi kurang,Tes stall; Bersihkan cooler,16.1,37952
+WO-26789,EX-1231,EX-2000,X-HYD-110,gerakan melambat setelah 3 jam operasi saat shift malam,Relief valve bocor internal,Ukur putaran fan,12.3,15687
+WO-26790,DT-2655,DT-100,E-SUS-401,suspensi bocor oli setelah PM 250,Seal silinder suspensi rusak,Ukur ride height; Isi ulang nitrogen,19.3,28323
+WO-26791,EX-1761,EX-2000,X-ENG-310,suhu engine tinggi setelah PM 250,Thermostat,Cek coolant; Idle-kan mesin sebelum dimatikan; Bersihkan radiator,6.1,11997
+WO-26792,DT-1171,DT-100,E-ENG-101,indikator temperatur merah saat shift malam,Radiator tersumbat debu/lumpur,Cek level coolant setelah suhu < 50 °C; Uji thermostat; Idle-kan mesin 5 menit sebelum dimatikan,18.6,23668
+WO-26793,BD-3029,BD-375,D-ENG-101,suhu mesin dozer tinggi di tanjakan ramp,Coolant kurang,Cek coolant; Aktifkan fan reverse,22.2,27363
+WO-26794,EX-2334,EX-2000,X-HYD-120,boom tidak mau naik setelah hujan,Pompa pilot aus,Ganti filter pilot; Ukur tekanan pilot di test port; Setel relief pilot,17.4,10804
+WO-26795,DT-2412,DT-100,E-TRM-201,perpindahan gigi kasar dan suhu transmisi tinggi setelah hujan,Oil cooler tersumbat,Cek level oli transmisi; Kurangi beban,25.7,40501
+WO-26796,DT-1264,DT-100,E-ELC-501,lampu redup,Kabel ground rusak,Cek output alternator; Bersihkan terminal,10.8,35708
+WO-26797,EX-1493,EX-2000,X-ELC-510,fungsi kontrol hilang sesaat setelah hujan,Resistor terminasi rusak,Periksa konektor boom foot,23.6,41642
+WO-26798,BD-2665,BD-375,D-UND-301,baut shoe longgar setelah PM 250,Operasi di batuan keras dengan kecepatan tinggi,Inspeksi retakan shoe; Torque ulang baut,11.8,24674
+WO-26799,BD-2749,BD-375,D-ENG-101,suhu mesin dozer tinggi setelah PM 250,Fan reversible tidak bekerja,Cek coolant,26.2,4465

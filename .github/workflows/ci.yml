@@ -1,0 +1,86 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_PREFIX: ghcr.io/${{ github.repository }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: pip install -e ".[dev,pdf]"
+      - name: Lint
+        run: ruff check src tests ui
+      - name: Unit & integration tests
+        run: pytest -q
+      - name: Evaluation + quality gates
+        run: minesense eval
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-report
+          path: artifacts/reports/
+
+  build:
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target: [api, ui]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: docker/Dockerfile
+          target: ${{ matrix.target }}
+          push: true
+          tags: |
+            ${{ env.IMAGE_PREFIX }}-${{ matrix.target }}:${{ github.sha }}
+            ${{ env.IMAGE_PREFIX }}-${{ matrix.target }}:latest
+          cache-from: type=gha,scope=${{ matrix.target }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.target }}
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && vars.DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Deploy ke VPS via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            set -e
+            cd ~/minesense
+            git pull --ff-only
+            echo "${{ secrets.GHCR_READ_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+            sed -i "s|^IMAGE_PREFIX=.*|IMAGE_PREFIX=${{ env.IMAGE_PREFIX }}|; s|^IMAGE_TAG=.*|IMAGE_TAG=${{ github.sha }}|" .env
+            docker compose -f docker-compose.yml -f docker-compose.prod.yml pull api ui
+            docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --no-build
+            sleep 20
+            curl -fsS https://$(grep ^DOMAIN= .env | cut -d= -f2)/api/health
+            docker image prune -f

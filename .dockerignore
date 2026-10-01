@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+**/__pycache__
+artifacts
+data/uploads
+data/sft
+models
+notebooks
+tests
+.env
+*.zip
