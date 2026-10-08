@@ -40,16 +40,44 @@ class CrossEncoderReranker:  # pragma: no cover - butuh download model
         return sorted(items, key=lambda x: -x.score)
 
 
+class FastEmbedReranker:  # pragma: no cover - butuh download model
+    """Cross-encoder multilingual via ONNX (tanpa torch), mis. jinaai/jina-reranker-v2-base-multilingual."""
+
+    def __init__(self, model: str, cache_dir: str | None = None):
+        try:
+            from fastembed.rerank.cross_encoder import TextCrossEncoder
+        except ImportError as e:
+            raise RuntimeError("Install: pip install fastembed") from e
+        self.model = TextCrossEncoder(model_name=model, cache_dir=cache_dir)
+
+    def rerank(self, query: str, items: list[Retrieved]) -> list[Retrieved]:
+        scores = list(self.model.rerank(query, [f"{it.chunk.title} | {it.chunk.section}\n{it.chunk.text}"
+                                                for it in items]))
+        for it, sc in zip(items, scores):
+            it.score = float(sc)
+        return sorted(items, key=lambda x: -x.score)
+
+
+def build_reranker(s: Settings):
+    if s.reranker == "fastembed":
+        return FastEmbedReranker(s.reranker_model, cache_dir=str(s.model_cache_dir))
+    if s.reranker == "cross-encoder":
+        return CrossEncoderReranker(s.reranker_model)
+    return None
+
+
 class HybridRetriever:
     def __init__(self, index: HybridIndex, settings: Settings | None = None):
         self.index = index
         self.s = settings or get_settings()
-        self.reranker = CrossEncoderReranker(self.s.reranker_model) if self.s.reranker == "cross-encoder" else None
+        self.reranker = build_reranker(self.s)
 
-    def retrieve(self, query: str, top_k: int | None = None, filters: dict | None = None) -> list[Retrieved]:
+    def retrieve(self, query: str, top_k: int | None = None, filters: dict | None = None,
+                 mode: str = "hybrid") -> list[Retrieved]:
+        """mode: hybrid (default) | dense | sparse — dense/sparse dipakai untuk benchmark/ablation."""
         k = top_k or self.s.top_k
-        dense = self.index.dense_search(query, self.s.candidate_k, filters)
-        sparse = self.index.sparse_search(query, self.s.candidate_k, filters)
+        dense = self.index.dense_search(query, self.s.candidate_k, filters) if mode != "sparse" else []
+        sparse = self.index.sparse_search(query, self.s.candidate_k, filters) if mode != "dense" else []
         d_ids, s_ids = [c for c, _ in dense], [c for c, _ in sparse]
         fused = rrf_fuse([d_ids, s_ids], k=self.s.rrf_k)
         d_rank = {c: i for i, c in enumerate(d_ids)}
@@ -58,5 +86,5 @@ class HybridRetriever:
         items = [Retrieved(self.index.chunks[c], sc, d_rank.get(c), s_rank.get(c), d_sc.get(c, 0.0), s_sc.get(c, 0.0))
                  for c, sc in sorted(fused.items(), key=lambda x: -x[1]) if c in self.index.chunks]
         if self.reranker and items:
-            items = self.reranker.rerank(query, items[: self.s.candidate_k])
+            items = self.reranker.rerank(query, items[: self.s.rerank_candidates]) + items[self.s.rerank_candidates:]
         return items[:k]

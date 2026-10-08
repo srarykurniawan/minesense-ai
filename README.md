@@ -81,17 +81,21 @@ Tiga jalur, lihat [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md):
 
 Evaluasi base vs fine-tuned: `python -m minesense.finetune.eval_llm` (metrik JSON-validity, akurasi kategori/risiko, field accuracy, citation rate, refusal accuracy). Lihat [docs/MODEL_CARD.md](docs/MODEL_CARD.md).
 
-## Hasil evaluasi (data sintetis, mode extractive, embedder hashing)
+## Hasil evaluasi
+Dua set evaluasi — lihat [docs/EVALUATION.md](docs/EVALUATION.md):
 
-| Komponen | Metrik | Nilai |
-|---|---|---|
-| Retrieval hybrid | Hit@1 / Hit@5 / MRR | 0,95 / 1,00 / 0,97 |
-| Retrieval dense saja | Hit@1 / Hit@5 | 0,85 / 0,98 |
-| RAG | keyword recall · sitasi benar · tolak out-of-scope · blok injection | 0,93 · 0,98 · 1,00 · 1,00 |
-| Classifier (pola kalimat tak terlihat / group split) | macro-F1 kategori · macro-F1 risiko · recall "kritis" | 0,95 · 0,90 · 1,00 |
-| Ekstraksi laporan shift (hard set) | field accuracy | 1,00 |
+| Set | Retrieval Hit@5 | Jawaban benar | Penolakan keliru | Catatan |
+|---|---|---|---|---|
+| v1 (41 pertanyaan, kosakata = dokumen) | 1,00 | 0,93 | – | optimis, dipertahankan untuk regresi kasar |
+| **v2** (115: parafrase, kolokial, skenario, tak-terjawab, OOS) — ambang terkalibrasi | 0,96 | **0,75** [0,67–0,84] | 0,05 | angka yang lebih jujur |
 
-⚠️ **Baca dengan kritis:** angka setinggi ini wajar untuk data sintetis yang berbasis template dan eval set yang kecil (41 pertanyaan, 4 laporan "hard"). Pada data nyata, angka **akan turun** — itulah alasan harness evaluasi & quality gates disertakan: jalankan ulang pada data asli dan kalibrasi ambang. Lihat bagian "Keterbatasan" di MODEL_CARD.
+Bandingkan embedder neural & reranker (ONNX, tanpa torch):
+```bash
+pip install -e ".[fastembed]"
+minesense benchmark            # hashing vs MiniLM multilingual vs MiniLM+reranker
+minesense benchmark --full     # + MPNet, multilingual-e5-large (+ reranker)
+```
+Klasifikasi insiden (group split): macro-F1 kategori 0,95 · recall "kritis" 1,00. Ekstraksi laporan shift (hard set): 1,00.
 
 ## Struktur repo
 ```

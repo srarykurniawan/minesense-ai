@@ -43,7 +43,7 @@ def main() -> None:  # pragma: no cover - butuh torch + model
     a = ap.parse_args()
 
     s = get_settings()
-    meta = json.loads((a.adapter.parent / "train_meta.json").read_text())
+    meta = json.loads((a.adapter.parent / "train_meta.json").read_text(encoding="utf-8"))
     base = meta["base"]
     merged_dir = s.artifacts_dir / "merged" / a.name
     tok = AutoTokenizer.from_pretrained(a.adapter)
@@ -67,7 +67,7 @@ def main() -> None:  # pragma: no cover - butuh torch + model
         else:
             final = f16
             print("llama-quantize tidak ditemukan; memakai GGUF f16")
-        (gdir / "Modelfile").write_text(MODELFILE.format(gguf=final.name))
+        (gdir / "Modelfile").write_text(MODELFILE.format(gguf=final.name), encoding="utf-8")
         print(f"GGUF -> {final}\nLanjutkan: cd {gdir} && ollama create minesense -f Modelfile")
 
 

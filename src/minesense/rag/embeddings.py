@@ -1,7 +1,10 @@
 """Embedding backends (pluggable).
 
 - hashing: offline, tanpa download model, deterministik. Cocok untuk CI/dev & CPU kecil.
-- sentence-transformers: multilingual-e5 / bge-m3 (kualitas semantik jauh lebih baik).
+- fastembed: model neural multilingual via ONNX Runtime — CPU, TANPA torch (ringan; cocok laptop,
+  VPS kecil, Streamlit Cloud). Contoh: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,
+  intfloat/multilingual-e5-large. `pip install fastembed`
+- sentence-transformers: multilingual-e5 / bge-m3 via PyTorch (butuh torch).
 - openai: endpoint /embeddings yang kompatibel OpenAI (OpenAI, vLLM, Ollama, TEI).
 """
 from __future__ import annotations
@@ -58,13 +61,40 @@ class HashingEmbedder(Embedder):
         return self._embed([text])[0]
 
 
-class SentenceTransformerEmbedder(Embedder):  # pragma: no cover - butuh download model
-    name = "sentence-transformers"
+def _prefixes(model: str) -> tuple[str, str]:
+    """Model keluarga E5 dilatih dengan prefiks 'query: ' / 'passage: ' — wajib dipakai agar akurat."""
+    return ("query: ", "passage: ") if "e5" in model.lower() else ("", "")
 
+
+class FastEmbedEmbedder(Embedder):  # pragma: no cover - butuh download model (HuggingFace)
+    def __init__(self, model: str, cache_dir: str | None = None, batch_size: int = 32):
+        try:
+            from fastembed import TextEmbedding
+        except ImportError as e:
+            raise RuntimeError("Install: pip install fastembed  (atau pip install -e \".[fastembed]\")") from e
+        self.model_name = model
+        self.name = f"fastembed:{model}"
+        self.model = TextEmbedding(model_name=model, cache_dir=cache_dir)
+        self.batch_size = batch_size
+        self.q_prefix, self.p_prefix = _prefixes(model)
+        self.dim = len(self.embed_query("tes"))
+
+    def _enc(self, texts: list[str]) -> np.ndarray:
+        return _l2(np.asarray(list(self.model.embed(texts, batch_size=self.batch_size)), dtype=np.float32))
+
+    def embed_documents(self, texts: list[str]) -> np.ndarray:
+        return self._enc([self.p_prefix + t for t in texts])
+
+    def embed_query(self, text: str) -> np.ndarray:
+        return self._enc([self.q_prefix + text])[0]
+
+
+class SentenceTransformerEmbedder(Embedder):  # pragma: no cover - butuh download model
     def __init__(self, model: str):
         from sentence_transformers import SentenceTransformer
 
         self.model_name = model
+        self.name = f"sentence-transformers:{model}"
         self.model = SentenceTransformer(model)
         self.dim = self.model.get_sentence_embedding_dimension()
         self._e5 = "e5" in model.lower()
@@ -80,12 +110,11 @@ class SentenceTransformerEmbedder(Embedder):  # pragma: no cover - butuh downloa
 
 
 class OpenAICompatEmbedder(Embedder):  # pragma: no cover - butuh endpoint
-    name = "openai"
-
     def __init__(self, model: str, base_url: str, api_key: str):
         import httpx
 
         self.model = model
+        self.name = f"openai:{model}"
         self.client = httpx.Client(base_url=base_url or "https://api.openai.com/v1",
                                    headers={"Authorization": f"Bearer {api_key}"}, timeout=60)
         self.dim = len(self.embed_query("tes"))
@@ -104,6 +133,8 @@ class OpenAICompatEmbedder(Embedder):  # pragma: no cover - butuh endpoint
 
 
 def build_embedder(s: Settings) -> Embedder:
+    if s.embedding_backend == "fastembed":
+        return FastEmbedEmbedder(s.embedding_model, cache_dir=str(s.model_cache_dir))
     if s.embedding_backend == "sentence-transformers":
         return SentenceTransformerEmbedder(s.embedding_model)
     if s.embedding_backend == "openai":

@@ -67,7 +67,7 @@ def main(argv: list[str] | None = None) -> dict:
     report = {"random_split": random_split, "group_split": group_split, "model_path": str(s.classifier_path)}
     out = s.artifacts_dir / "reports"
     out.mkdir(parents=True, exist_ok=True)
-    (out / "classifier_eval.json").write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    (out / "classifier_eval.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     summary = {"random_split": final.meta["eval_random_split"], "group_split": final.meta["eval_group_split"]}
     print(json.dumps(summary, indent=2))
     return report

@@ -1,0 +1,115 @@
+{"type": "paraphrase", "question": "Saat permukaan jalan angkut licin sehabis hujan, laju maksimal truk jungkit dibatasi berapa?", "doc_id": "SOP-K3-001", "keywords": ["25 km"]}
+{"type": "colloquial", "question": "bro kalo jalan hauling lagi kering & lurus DT boleh lari brp km/jam?", "doc_id": "SOP-K3-001", "keywords": ["40 km"]}
+{"type": "paraphrase", "question": "Ketika membawa muatan di tanjakan curam di atas 8 persen, berapa kecepatan tertinggi yang diizinkan?", "doc_id": "SOP-K3-001", "keywords": ["20 km"]}
+{"type": "paraphrase", "question": "Seberapa jauh truk harus berjarak dengan truk di depannya kalau debu tebal membuat pandangan kurang dari 100 meter?", "doc_id": "SOP-K3-001", "keywords": ["100 meter"]}
+{"type": "colloquial", "question": "jarak antar DT normalnya brp meter sih?", "doc_id": "SOP-K3-001", "keywords": ["50 meter"]}
+{"type": "scenario", "question": "Operator truk ingin mengambil HP yang jatuh ke lantai luar kabin sementara excavator sedang mengisi muatan. Apakah boleh?", "doc_id": "SOP-K3-001", "keywords": ["dilarang turun"]}
+{"type": "paraphrase", "question": "Tanggul pengaman di bibir area buangan harus setinggi apa?", "doc_id": "SOP-K3-001", "keywords": ["diameter roda"]}
+{"type": "scenario", "question": "Pengawas melihat ada rekahan di permukaan area dumping. Apa yang harus dilakukan operator truk?", "doc_id": "SOP-K3-001", "keywords": ["crack"]}
+{"type": "paraphrase", "question": "Di posisi mana truk harus menunggu giliran sebelum masuk titik muat dan berapa jaraknya dari alat gali?", "doc_id": "SOP-K3-001", "keywords": ["30 m"]}
+{"type": "colloquial", "question": "LV mau masuk loading point, prosedurnya apa?", "doc_id": "SOP-K3-001", "keywords": ["radio"]}
+{"type": "paraphrase", "question": "Siapa yang berwenang menetapkan kondisi jalan licin dan menghentikan pengangkutan?", "doc_id": "SOP-K3-001", "keywords": ["pengawas"]}
+{"type": "paraphrase", "question": "Muatan berlebih berapa persen yang wajib dilaporkan ke atasan?", "doc_id": "SOP-K3-001", "keywords": ["10%"]}
+{"type": "paraphrase", "question": "Apa prinsip dasar penguncian personal dalam prosedur isolasi energi?", "doc_id": "SOP-K3-002", "keywords": ["satu gembok"]}
+{"type": "scenario", "question": "Mekanik A lupa melepas gemboknya lalu pulang. Unit harus segera dipakai. Bagaimana gembok itu boleh dibuka?", "doc_id": "SOP-K3-002", "keywords": ["KTT"]}
+{"type": "paraphrase", "question": "Sebelum bekerja di kolong bak truk yang terangkat, alat penopang apa yang wajib dipasang?", "doc_id": "SOP-K3-002", "keywords": ["body prop"]}
+{"type": "paraphrase", "question": "Bagaimana membuang sisa tekanan pada sistem hidrolik setelah mesin dimatikan?", "doc_id": "SOP-K3-002", "keywords": ["3–5 kali"]}
+{"type": "colloquial", "question": "warna gembok pribadi buat LOTO apa ya?", "doc_id": "SOP-K3-002", "keywords": ["merah"]}
+{"type": "paraphrase", "question": "Tahap mana dalam penguncian energi yang sama sekali tidak boleh dilewatkan?", "doc_id": "SOP-K3-002", "keywords": ["Verifikasi"]}
+{"type": "paraphrase", "question": "Pada suhu berapa oli/radiator dianggap aman untuk mulai dikerjakan?", "doc_id": "SOP-K3-002", "keywords": ["50 °C"]}
+{"type": "paraphrase", "question": "Apa konsekuensi bagi pekerja yang melanggar prosedur penguncian energi?", "doc_id": "SOP-K3-002", "keywords": ["Life Saving Rules"]}
+{"type": "paraphrase", "question": "Mulai elevasi berapa sebuah pekerjaan digolongkan kerja di tempat tinggi?", "doc_id": "SOP-K3-003", "keywords": ["1,8"]}
+{"type": "colloquial", "question": "titik cantolan harness minimal kuat nahan brp?", "doc_id": "SOP-K3-003", "keywords": ["22 kN"]}
+{"type": "paraphrase", "question": "Dalam berapa menit korban yang tergantung di sabuk pengaman harus diturunkan?", "doc_id": "SOP-K3-003", "keywords": ["15 menit"]}
+{"type": "scenario", "question": "Angin bertiup 45 km/jam saat tim akan memperbaiki conveyor di atas. Lanjut atau stop?", "doc_id": "SOP-K3-003", "keywords": ["40 km"]}
+{"type": "paraphrase", "question": "Apa yang harus dilakukan pada sabuk pengaman tubuh yang pernah menahan orang jatuh?", "doc_id": "SOP-K3-003", "keywords": ["dimusnahkan"]}
+{"type": "paraphrase", "question": "Berapa jumlah minimal orang dalam tim kerja di ketinggian?", "doc_id": "SOP-K3-003", "keywords": ["2 orang"]}
+{"type": "colloquial", "question": "naik tangga alat berat aturannya gimana?", "doc_id": "SOP-K3-003", "keywords": ["tiga titik kontak"]}
+{"type": "paraphrase", "question": "Seberapa jauh semua orang harus menjauh dari lokasi blasting?", "doc_id": "SOP-K3-004", "keywords": ["500 meter"]}
+{"type": "paraphrase", "question": "Unit alat berat harus diparkir minimal berapa meter dari titik ledakan?", "doc_id": "SOP-K3-004", "keywords": ["300 meter"]}
+{"type": "scenario", "question": "Setelah ledakan ada satu lubang yang tidak meletus. Kapan orang boleh mendekat?", "doc_id": "SOP-K3-004", "keywords": ["30 menit"]}
+{"type": "colloquial", "question": "boleh ga ngebor deket lubang yg gagal ledak?", "doc_id": "SOP-K3-004", "keywords": ["1 meter"]}
+{"type": "paraphrase", "question": "Sinyal sirine apa yang menandakan area sudah aman pasca peledakan?", "doc_id": "SOP-K3-004", "keywords": ["2 kali"]}
+{"type": "scenario", "question": "Batu hasil ledakan terlempar sampai ke luar zona aman. Masuk kategori risiko apa?", "doc_id": "SOP-K3-004", "keywords": ["kritis"]}
+{"type": "paraphrase", "question": "Dokumen izin apa yang wajib dimiliki orang yang melakukan peledakan?", "doc_id": "SOP-K3-004", "keywords": ["KIM"]}
+{"type": "scenario", "question": "Detektor menangkap sambaran petir 8 km dari lokasi saat pengisian bahan peledak. Apa tindakannya?", "doc_id": "SOP-K3-004", "keywords": ["dihentikan"]}
+{"type": "paraphrase", "question": "Berapa angka faktor keamanan paling rendah untuk lereng keseluruhan?", "doc_id": "SOP-K3-005", "keywords": ["1,3"]}
+{"type": "scenario", "question": "Radar menunjukkan dinding pit bergeser 20 mm sehari. Status apa dan apa yang dilakukan?", "doc_id": "SOP-K3-005", "keywords": ["Siaga"]}
+{"type": "scenario", "question": "Pergerakan lereng terbaca 5 mm per hari. Apa respons yang tepat?", "doc_id": "SOP-K3-005", "keywords": ["4 jam"]}
+{"type": "paraphrase", "question": "Tinggi maksimum satu jenjang tambang menurut desain?", "doc_id": "SOP-K3-005", "keywords": ["10 meter"]}
+{"type": "colloquial", "question": "abis ujan deras >50mm geotek wajib ngecek ga?", "doc_id": "SOP-K3-005", "keywords": ["50 mm"]}
+{"type": "paraphrase", "question": "Retakan sebesar apa yang wajib dilaporkan sebagai hazard?", "doc_id": "SOP-K3-005", "keywords": ["5 cm"]}
+{"type": "paraphrase", "question": "Data radar pemantau kemiringan ditinjau setiap berapa jam?", "doc_id": "SOP-K3-005", "keywords": ["12 jam"]}
+{"type": "paraphrase", "question": "Berapa lama operator wajib beristirahat tidur dalam sehari sebelum mulai bekerja?", "doc_id": "SOP-K3-006", "keywords": ["6 jam"]}
+{"type": "scenario", "question": "Tensi operator terukur 165/95 saat cek awal shift. Boleh mengemudi?", "doc_id": "SOP-K3-006", "keywords": ["160"]}
+{"type": "scenario", "question": "Kamera kabin dua kali mendeteksi operator tertidur sesaat di shift yang sama. Apa keputusannya?", "doc_id": "SOP-K3-006", "keywords": ["dibebastugaskan"]}
+{"type": "colloquial", "question": "shift malem maks brp hari berturut2?", "doc_id": "SOP-K3-006", "keywords": ["7 hari"]}
+{"type": "paraphrase", "question": "Berapa durasi jeda pendek melawan kantuk pada shift malam dan seberapa sering?", "doc_id": "SOP-K3-006", "keywords": ["10 menit"]}
+{"type": "paraphrase", "question": "Berapa kadar alkohol yang diperbolehkan saat tes awal shift?", "doc_id": "SOP-K3-006", "keywords": ["0,00"]}
+{"type": "paraphrase", "question": "Tim tanggap darurat harus tiba di lokasi dalam pit maksimal berapa menit?", "doc_id": "SOP-K3-007", "keywords": ["10 menit"]}
+{"type": "scenario", "question": "Truk terbakar di tengah jalan angkut. Operator harus menjauh berapa meter dan ke arah mana?", "doc_id": "SOP-K3-007", "keywords": ["30 meter"]}
+{"type": "paraphrase", "question": "Kapan pekerjaan di lapangan terbuka boleh dimulai kembali setelah badai petir?", "doc_id": "SOP-K3-007", "keywords": ["30 menit"]}
+{"type": "paraphrase", "question": "Seberapa sering latihan simulasi keadaan darurat diadakan?", "doc_id": "SOP-K3-007", "keywords": ["6 bulan"]}
+{"type": "colloquial", "question": "kalo ada kecelakaan, manggil di radio ngomong apa?", "doc_id": "SOP-K3-007", "keywords": ["EMERGENCY"]}
+{"type": "paraphrase", "question": "Dalam berapa lama Kepala Teknik Tambang harus diberi tahu bila ada korban?", "doc_id": "SOP-K3-007", "keywords": ["1 jam"]}
+{"type": "scenario", "question": "Selang hidrolik pecah dan 300 liter oli tumpah ke sungai kecil. Masuk kategori apa?", "doc_id": "SOP-ENV-001", "keywords": ["Besar"]}
+{"type": "paraphrase", "question": "Bolehkah ceceran solar dibersihkan dengan menyemprotkan air?", "doc_id": "SOP-ENV-001", "keywords": ["dilarang"]}
+{"type": "paraphrase", "question": "Tanah yang tercemar oli harus dibawa ke tempat penyimpanan limbah paling lambat kapan?", "doc_id": "SOP-ENV-001", "keywords": ["24 jam"]}
+{"type": "colloquial", "question": "isi spill kit minimal apa aja?", "doc_id": "SOP-ENV-001", "keywords": ["absorbent pad"]}
+{"type": "paraphrase", "question": "Air keluaran kolam sedimen memiliki keasaman di bawah 6. Bahan apa yang ditambahkan?", "doc_id": "SOP-ENV-002", "keywords": ["kapur"]}
+{"type": "paraphrase", "question": "Batas internal kandungan besi total pada air buangan?", "doc_id": "SOP-ENV-002", "keywords": ["7 mg/L"]}
+{"type": "paraphrase", "question": "Kapan lumpur di kolam pengendapan harus dikeruk?", "doc_id": "SOP-ENV-002", "keywords": ["50%"]}
+{"type": "colloquial", "question": "ph outlet KPL dicek tiap kapan?", "doc_id": "SOP-ENV-002", "keywords": ["harian"]}
+{"type": "paraphrase", "question": "Komponen apa saja yang bila rusak membuat unit tidak boleh jalan sama sekali?", "doc_id": "SOP-OPS-001", "keywords": ["Rem"]}
+{"type": "scenario", "question": "Wiper truk rusak tapi rem dan kemudi normal. Kapan wiper harus diperbaiki?", "doc_id": "SOP-OPS-001", "keywords": ["3 hari"]}
+{"type": "paraphrase", "question": "Apa arti jika operator terus-menerus menambah oli mesin setiap shift?", "doc_id": "SOP-OPS-001", "keywords": ["kebocoran"]}
+{"type": "colloquial", "question": "form P2H dikumpul paling telat kapan?", "doc_id": "SOP-OPS-001", "keywords": ["1 jam"]}
+{"type": "scenario", "question": "Seorang pekerja patah kaki dan tidak bisa masuk kerja besok. Dalam berapa jam laporan awal harus dibuat?", "doc_id": "SOP-K3-008", "keywords": ["4 jam"]}
+{"type": "paraphrase", "question": "Metode analisis akar masalah apa untuk kejadian berisiko rendah dan sedang?", "doc_id": "SOP-K3-008", "keywords": ["5 Why"]}
+{"type": "paraphrase", "question": "Berapa hari batas penyelesaian investigasi kejadian kritis?", "doc_id": "SOP-K3-008", "keywords": ["14 hari"]}
+{"type": "paraphrase", "question": "Urutan prioritas tindakan perbaikan dimulai dari apa?", "doc_id": "SOP-K3-008", "keywords": ["eliminasi"]}
+{"type": "paraphrase", "question": "Dalam berapa jam peringatan keselamatan harus disebarkan setelah insiden tinggi?", "doc_id": "SOP-K3-008", "keywords": ["48 jam"]}
+{"type": "scenario", "question": "Indikator suhu air radiator truk 100 ton naik melewati 105 derajat. Apa kemungkinan penyebabnya?", "doc_id": "MAN-DT100", "keywords": ["thermostat"]}
+{"type": "colloquial", "question": "DT-100 lampu tekanan oli nyala pas idle, harus ngapain?", "doc_id": "MAN-DT100", "keywords": ["matikan mesin"]}
+{"type": "paraphrase", "question": "Berapa tekanan angin ban truk DT-100 dalam keadaan dingin?", "doc_id": "MAN-DT100", "keywords": ["7,0 bar"]}
+{"type": "paraphrase", "question": "Tegangan pengisian normal ketika mesin truk menyala berapa volt?", "doc_id": "MAN-DT100", "keywords": ["27"]}
+{"type": "scenario", "question": "Bak truk naiknya pelan banget saat membuang muatan. Apa yang perlu diperiksa?", "doc_id": "MAN-DT100", "keywords": ["relief"]}
+{"type": "paraphrase", "question": "Pada servis berkala berapa jam oli hidrolik dan oli transmisi DT-100 diganti?", "doc_id": "MAN-DT100", "keywords": ["2000"]}
+{"type": "scenario", "question": "Truk miring ke satu sisi dan guncangannya keras. Komponen apa yang dicurigai?", "doc_id": "MAN-DT100", "keywords": ["suspensi"]}
+{"type": "paraphrase", "question": "Kisaran tekanan pilot yang normal pada excavator kelas 200 ton?", "doc_id": "MAN-EX2000", "keywords": ["30–35 bar"]}
+{"type": "scenario", "question": "Excavator bunyi gemeretak saat berputar dan gerakan putarnya tersendat. Apa yang diperiksa?", "doc_id": "MAN-EX2000", "keywords": ["swing"]}
+{"type": "colloquial", "question": "track EX kendur, sag normalnya brp mm?", "doc_id": "MAN-EX2000", "keywords": ["30–50 mm"]}
+{"type": "paraphrase", "question": "Berapa nilai resistansi yang benar antara jalur CAN-H dan CAN-L?", "doc_id": "MAN-EX2000", "keywords": ["60 ohm"]}
+{"type": "paraphrase", "question": "Suhu kerja normal oli hidrolik excavator berapa derajat?", "doc_id": "MAN-EX2000", "keywords": ["50–80"]}
+{"type": "scenario", "question": "Dozer kehilangan tenaga dan oli power train panas saat mendorong material berat terus-menerus. Saran?", "doc_id": "MAN-BD375", "keywords": ["stall"]}
+{"type": "paraphrase", "question": "Bagaimana membersihkan radiator dozer yang tersumbat tanpa membongkar?", "doc_id": "MAN-BD375", "keywords": ["fan reverse"]}
+{"type": "paraphrase", "question": "Peraturan menteri ESDM mana yang mengatur kaidah pertambangan yang baik dan pengawasannya?", "doc_id": "REG-001", "keywords": ["26 Tahun 2018"]}
+{"type": "paraphrase", "question": "Siapa pejabat pemerintah yang mengawasi pelaksanaan kaidah teknik pertambangan?", "doc_id": "REG-001", "keywords": ["Inspektur Tambang"]}
+{"type": "colloquial", "question": "SMKP minerba itu isinya elemen apa aja?", "doc_id": "REG-001", "keywords": ["kebijakan"]}
+{"type": "scenario", "question": "Shift ini OB 30.000 BCM dan batubara 6.000 ton. Berapa stripping ratio-nya dan bagaimana rumusnya?", "doc_id": "OPS-002", "keywords": ["BCM"]}
+{"type": "paraphrase", "question": "Target ketersediaan fisik dump truck berapa persen?", "doc_id": "OPS-002", "keywords": ["90%"]}
+{"type": "paraphrase", "question": "Jam berapa shift malam dimulai dan berakhir?", "doc_id": "OPS-002", "keywords": ["18.00"]}
+{"type": "paraphrase", "question": "Apa beda volume material in-situ dengan volume setelah digali?", "doc_id": "GLOS-001", "keywords": ["LCM"]}
+{"type": "colloquial", "question": "LTI tuh maksudnya apa?", "doc_id": "GLOS-001", "keywords": ["shift berikutnya"]}
+{"type": "unanswerable", "question": "Berapa harga satu ban baru untuk dump truck DT-100?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa kapasitas tangki bahan bakar DT-100?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Siapa nama Kepala Teknik Tambang di PT Nusantara Mineral Sejahtera saat ini?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa gaji pokok operator excavator?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa target produksi batubara tahunan perusahaan?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa interval penggantian filter udara kabin AC excavator EX-2000?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Merek bahan peledak apa yang dipakai di site?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa denda dari pemerintah jika terjadi kecelakaan fatal?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa kedalaman maksimum pit yang diizinkan?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa jumlah unit dump truck yang beroperasi di Pit Barat?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa konsumsi solar per jam dump truck DT-100?", "doc_id": null, "keywords": []}
+{"type": "unanswerable", "question": "Berapa nomor telepon klinik site?", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Bagaimana resep rendang padang?", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Siapa juara piala dunia 2022?", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Rekomendasi film horor terbaru", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Cara membuat website dengan React", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Berapa harga saham BBCA hari ini?", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Tips diet sehat untuk menurunkan berat badan", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Jadwal kereta Jakarta ke Bandung", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Terjemahkan kalimat ini ke bahasa Jepang: selamat pagi", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Siapa penemu bola lampu?", "doc_id": null, "keywords": []}
+{"type": "out_of_scope", "question": "Cara merawat kucing persia", "doc_id": null, "keywords": []}

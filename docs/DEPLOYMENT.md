@@ -89,3 +89,13 @@ Catatan: storage Space bersifat sementara (dokumen unggahan hilang saat restart)
 - [ ] Backup volume terjadwal.
 - [ ] Bila memakai LLM API eksternal: pastikan kebijakan data perusahaan mengizinkan; PII (NIK, telepon, email) sudah disamarkan otomatis oleh guardrail sebelum dikirim.
 - [ ] Rate limit per proses — untuk >1 server, pindahkan ke API gateway/Redis.
+
+## Pilihan 4 — Streamlit Community Cloud (gratis, paling cepat untuk demo/portofolio)
+Mode **embedded**: API FastAPI dijalankan di dalam proses Streamlit (satu aplikasi, tanpa server terpisah).
+1. Push repo ke GitHub (public, atau private dengan akun GitHub yang terhubung ke Streamlit).
+2. https://share.streamlit.io → **Create app** → *Deploy a public app from GitHub*.
+3. Repository: `<username>/minesense`, Branch: `main`, **Main file path: `streamlit_app.py`**.
+4. *Advanced settings* → Python **3.11**; Secrets (opsional, lihat `.streamlit/secrets.toml.example`).
+5. **Deploy** → build ±3–5 menit; start pertama ±30–60 dtk (index & classifier dibangun otomatis).
+Dependensi dibaca dari `requirements.txt` (tanpa torch, ringan).
+Keterbatasan: storage sementara (dokumen unggahan hilang saat app restart/tidur), app tidur bila tidak dipakai, tidak ada API publik terpisah, resource terbatas → untuk demo/portofolio, bukan data rahasia perusahaan. Batasi akses lewat *Share → Who can view this app* (hanya email tertentu).

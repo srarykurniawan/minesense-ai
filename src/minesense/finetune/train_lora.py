@@ -94,7 +94,7 @@ def main() -> None:  # pragma: no cover - butuh GPU
     metrics = trainer.evaluate()
     trainer.model.save_pretrained(str(out / "adapter"))
     tok.save_pretrained(str(out / "adapter"))
-    (out / "train_meta.json").write_text(json.dumps({"base": a.base, "args": vars(a), "eval": metrics}, indent=2))
+    (out / "train_meta.json").write_text(json.dumps({"base": a.base, "args": vars(a), "eval": metrics}, indent=2), encoding="utf-8")
     print("eval:", metrics, "\nadapter:", out / "adapter")
     if a.push_to_hub:
         trainer.model.push_to_hub(a.push_to_hub)

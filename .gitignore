@@ -10,3 +10,4 @@ data/sft/
 models/*.gguf
 .pytest_cache/
 .ruff_cache/
+.streamlit/secrets.toml

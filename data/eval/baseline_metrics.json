@@ -1,0 +1,9 @@
+{
+  "hashing|thr=0.35|rerank=none|llm=extractive": {
+    "hit@5": 0.957,
+    "evidence@5": 0.8817,
+    "answer_correct": 0.7527,
+    "refusal_rate": 0.4545,
+    "updated": "2026-10-01"
+  }
+}

@@ -27,7 +27,9 @@ dependencies = [
 ui = ["streamlit>=1.33", "pandas>=2.0"]
 pdf = ["pypdf>=4.0"]
 qdrant = ["qdrant-client>=1.9"]
-# Embedding neural + reranker (butuh akses HuggingFace)
+# Embedding neural + reranker via ONNX (CPU, tanpa torch) — direkomendasikan
+fastembed = ["fastembed>=0.4"]
+# Embedding neural + reranker via PyTorch (butuh akses HuggingFace)
 neural = ["sentence-transformers>=3.0", "torch>=2.2"]
 # Fine-tuning (jalankan di GPU: Colab/Kaggle T4)
 train = [

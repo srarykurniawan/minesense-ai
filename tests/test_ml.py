@@ -28,7 +28,7 @@ def test_safety_override_never_downgrades_fatal(clf):
 
 
 def test_classifier_quality(clf):
-    rep = json.loads((get_settings().artifacts_dir / "reports" / "classifier_eval.json").read_text())
+    rep = json.loads((get_settings().artifacts_dir / "reports" / "classifier_eval.json").read_text(encoding="utf-8"))
     assert rep["random_split"]["category_macro_f1"] >= 0.9
     assert rep["random_split"]["risk_kritis_recall"] >= 0.85
 
@@ -39,7 +39,7 @@ def test_parse_id_number(s, v):
 
 
 def test_extraction_hard_set():
-    rows = [json.loads(line) for line in open(get_settings().data_dir / "eval" / "shift_reports_hard.jsonl")]
+    rows = [json.loads(line) for line in open(get_settings().data_dir / "eval" / "shift_reports_hard.jsonl", encoding="utf-8")]
     for r in rows:
         d = extract(r["text"])[0].data.model_dump()
         for k, g in r["gold"].items():

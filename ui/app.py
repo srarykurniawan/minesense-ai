@@ -1,7 +1,15 @@
-"""MineSense UI (Streamlit). Jalankan: streamlit run ui/app.py  (butuh API berjalan di MINESENSE_API_URL)."""
+"""MineSense UI (Streamlit).
+
+Dua mode:
+  - remote   : UI memanggil API terpisah di MINESENSE_API_URL (Docker/VPS).  `streamlit run ui/app.py`
+  - embedded : MINESENSE_API_URL=embedded → API dijalankan di dalam proses Streamlit (Streamlit Community Cloud,
+               satu proses saja). Entry point: `streamlit run streamlit_app.py`
+"""
 from __future__ import annotations
 
+import base64
 import os
+from pathlib import Path
 
 import httpx
 import pandas as pd
@@ -14,7 +22,28 @@ HEADERS = {"X-API-Key": KEY} if KEY else {}
 st.set_page_config(page_title="MineSense AI", page_icon="⛏️", layout="wide")
 
 
+EMBEDDED = API.strip().lower() == "embedded"
+
+
+@st.cache_resource(show_spinner="Memuat index RAG & model (±20–60 detik saat pertama kali)...")
+def _embedded_client():
+    """Menjalankan FastAPI app di dalam proses (tanpa server terpisah) — semua logika endpoint dipakai ulang."""
+    from fastapi.testclient import TestClient
+
+    from minesense.api.main import app
+
+    client = TestClient(app)
+    client.__enter__()  # jalankan lifespan (load index + classifier)
+    return client
+
+
 def call(method: str, path: str, **kw):
+    if EMBEDDED:
+        r = _embedded_client().request(method, path, headers=HEADERS, **kw)
+        if r.status_code >= 400:
+            st.error(f"Error {r.status_code}: {r.text[:300]}")
+            return None
+        return r.json()
     try:
         r = httpx.request(method, f"{API}{path}", headers=HEADERS, timeout=120, **kw)
         r.raise_for_status()
@@ -34,6 +63,14 @@ def show_citations(cits):
                 st.caption(c["snippet"])
 
 
+LOGO = Path(__file__).resolve().parent / "assets" / "logo.png"
+if LOGO.exists():
+    _b64 = base64.b64encode(LOGO.read_bytes()).decode()
+    st.sidebar.markdown(
+        f'<div style="text-align:center;margin:-1.5rem 0 0.5rem 0;">'
+        f'<img src="data:image/png;base64,{_b64}" alt="Logo" style="width:85%;max-width:220px;"></div>',
+        unsafe_allow_html=True,
+    )
 st.sidebar.title("⛏️ MineSense AI")
 st.sidebar.caption("Asisten AI K3, operasi & maintenance tambang")
 info = call("GET", "/v1/info")

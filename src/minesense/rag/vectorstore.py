@@ -69,13 +69,13 @@ class InMemoryVectorStore(VectorStore):
     def save(self, path: Path):
         path.mkdir(parents=True, exist_ok=True)
         np.save(path / "vectors.npy", self.vectors)
-        (path / "vector_ids.json").write_text(json.dumps({"ids": self.ids, "payloads": self.payloads}))
+        (path / "vector_ids.json").write_text(json.dumps({"ids": self.ids, "payloads": self.payloads}), encoding="utf-8")
 
     @classmethod
     def load(cls, path: Path) -> "InMemoryVectorStore":
         st = cls()
         st.vectors = np.load(path / "vectors.npy")
-        d = json.loads((path / "vector_ids.json").read_text())
+        d = json.loads((path / "vector_ids.json").read_text(encoding="utf-8"))
         st.ids, st.payloads = d["ids"], d["payloads"]
         return st
 

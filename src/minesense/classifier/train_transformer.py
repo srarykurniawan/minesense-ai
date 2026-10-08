@@ -77,7 +77,7 @@ def main() -> None:  # pragma: no cover - butuh GPU & HF
     res = trainer.evaluate()
     trainer.save_model(str(out_dir))
     tok.save_pretrained(str(out_dir))
-    (out_dir / "eval.json").write_text(json.dumps(res, indent=2))
+    (out_dir / "eval.json").write_text(json.dumps(res, indent=2), encoding="utf-8")
     print(res)
     if a.push_to_hub:
         trainer.model.push_to_hub(a.push_to_hub)

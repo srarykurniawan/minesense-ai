@@ -66,24 +66,24 @@ class HybridIndex:
         path = path or self.s.index_dir
         path.mkdir(parents=True, exist_ok=True)
         self.store.save(path)
-        (path / "chunks.json").write_text(json.dumps([c.to_dict() for c in self.chunks.values()], ensure_ascii=False))
+        (path / "chunks.json").write_text(json.dumps([c.to_dict() for c in self.chunks.values()], ensure_ascii=False), encoding="utf-8")
         with open(path / "bm25.pkl", "wb") as f:
             pickle.dump((self._bm25_ids, self.bm25), f)
         (path / "manifest.json").write_text(json.dumps({
             "embedder": self.embedder.name, "dim": self.embedder.dim, "n_chunks": len(self.chunks),
             "n_docs": len({c.doc_id for c in self.chunks.values()}), "built_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        }, indent=2))
+        }, indent=2), encoding="utf-8")
         return path
 
     @classmethod
     def load(cls, settings: Settings | None = None, path: Path | None = None) -> "HybridIndex":
         idx = cls(settings)
         path = path or idx.s.index_dir
-        manifest = json.loads((path / "manifest.json").read_text())
+        manifest = json.loads((path / "manifest.json").read_text(encoding="utf-8"))
         if manifest["embedder"] != idx.embedder.name:
             raise RuntimeError(f"Index dibangun dengan embedder '{manifest['embedder']}', "
                                f"config saat ini '{idx.embedder.name}'. Jalankan ulang `minesense ingest`.")
-        idx.chunks = {d["chunk_id"]: Chunk(**d) for d in json.loads((path / "chunks.json").read_text())}
+        idx.chunks = {d["chunk_id"]: Chunk(**d) for d in json.loads((path / "chunks.json").read_text(encoding="utf-8"))}
         if idx.s.vector_backend == "memory":
             idx.store = InMemoryVectorStore.load(path)
         with open(path / "bm25.pkl", "rb") as f:

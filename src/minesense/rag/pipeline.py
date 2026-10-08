@@ -14,6 +14,7 @@ from minesense.guardrails import (
 from minesense.llm.prompts import RAG_SYSTEM, RAG_USER
 from minesense.llm.providers import LLM, ExtractiveLLM, LLMError, build_llm
 from minesense.logging_utils import get_logger
+from minesense.rag.calibration import resolve_dense_threshold
 from minesense.rag.index import HybridIndex
 from minesense.rag.retriever import HybridRetriever, Retrieved
 from minesense.rag.text import light_stem, tokenize
@@ -42,13 +43,14 @@ class RAGPipeline:
         self.retriever = HybridRetriever(index, self.s)
         self.llm = llm or build_llm(self.s)
         self.fallback = ExtractiveLLM()
+        self.dense_threshold = resolve_dense_threshold(self.s, index.embedder.name)
 
     def is_relevant(self, query: str, items: list[Retrieved]) -> bool:
         """Gate out-of-domain: skor retrieval cukup DAN cakupan leksikal kata kunci query di konteks memadai.
         BM25 saja rawan lolos karena 1 kata langka (mis. 'terbaru'), maka dicek coverage token query."""
         if not items:
             return False
-        if max(i.dense_score for i in items) >= self.s.min_dense_score:
+        if max(i.dense_score for i in items) >= self.dense_threshold:
             return True
         if max(i.sparse_score for i in items) < self.s.min_bm25_score:
             return False

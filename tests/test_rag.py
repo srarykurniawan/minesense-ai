@@ -33,7 +33,7 @@ def test_rrf_prefers_items_in_both_lists():
 
 
 def test_retrieval_hit_at_5(index, rag):
-    qa = [json.loads(line) for line in open(get_settings().data_dir / "eval" / "rag_qa.jsonl")]
+    qa = [json.loads(line) for line in open(get_settings().data_dir / "eval" / "rag_qa.jsonl", encoding="utf-8")]
     hits = sum(q["doc_id"] in [r.chunk.doc_id for r in rag.retriever.retrieve(q["question"], 5)] for q in qa)
     assert hits / len(qa) >= 0.9
 

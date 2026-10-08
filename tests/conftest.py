@@ -20,7 +20,8 @@ def _env(tmp_path_factory):
     from minesense.data.synth import write_all
     write_all(n_incidents=600, n_reports=60, n_wo=200)
     # hard set extraction ikut disalin
-    shutil.copy(ROOT / "data" / "eval" / "shift_reports_hard.jsonl", data / "eval" / "shift_reports_hard.jsonl")
+    for f in ("shift_reports_hard.jsonl", "rag_qa_v2.jsonl"):
+        shutil.copy(ROOT / "data" / "eval" / f, data / "eval" / f)
     yield
 
 

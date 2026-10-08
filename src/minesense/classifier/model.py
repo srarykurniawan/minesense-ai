@@ -118,7 +118,7 @@ class IncidentClassifier:
     def save(self, path: Path) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         joblib.dump({"cat": self.cat_model, "risk": self.risk_model, "meta": self.meta}, path)
-        path.with_suffix(".json").write_text(json.dumps(self.meta, indent=2))
+        path.with_suffix(".json").write_text(json.dumps(self.meta, indent=2), encoding="utf-8")
 
     @classmethod
     def load(cls, path: Path) -> "IncidentClassifier":

@@ -74,7 +74,7 @@ def main(argv=None) -> dict:
     report["_model"] = f"{s.llm_provider}:{s.llm_model}"
     out = s.artifacts_dir / "reports"
     out.mkdir(parents=True, exist_ok=True)
-    (out / f"llm_eval_{s.llm_provider}.json").write_text(json.dumps(report, indent=2))
+    (out / f"llm_eval_{s.llm_provider}.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps(report, indent=2))
     return report
 

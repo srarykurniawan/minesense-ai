@@ -27,6 +27,10 @@ def setup_logging(level: str = "INFO") -> None:
     root = logging.getLogger()
     if any(isinstance(h.formatter, JsonFormatter) for h in root.handlers):
         return
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # aman di Windows
+    except (AttributeError, ValueError):
+        pass
     handler = logging.StreamHandler(sys.stdout)
     handler.setFormatter(JsonFormatter())
     root.handlers = [handler]
